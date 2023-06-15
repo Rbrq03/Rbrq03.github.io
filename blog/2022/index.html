@@ -53,78 +53,56 @@
   <!-- Body -->
   <body class="fixed-top-nav ">
 
-    <!-- Header -->
-    <header>
+    <!-- Header --><header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand title font-weight-lighter" href="/"></a>
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
 
-      <!-- Nav Bar -->
-      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
-        <div class="container">
-          <a class="navbar-brand title font-weight-lighter" href="/"></a>
-          <!-- Navbar Toggle -->
-          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar top-bar"></span>
-            <span class="icon-bar middle-bar"></span>
-            <span class="icon-bar bottom-bar"></span>
-          </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
 
-          <div class="collapse navbar-collapse text-right" id="navbarNav">
-            <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">About</a>
+          </li>
+          
+          <!-- Blog -->
+          <!-- <li
+            class="nav-item active"
+          >
+            <a class="nav-link" href="/blog/"
+              >blog<span class="sr-only">(current)</span></a>
+          </li> -->
 
-              <!-- About -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/">About</a>
-              </li>
-              
-              <!-- Blog -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
-              </li>
+          <!-- Other pages -->
 
-              <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/publications/">publications</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/projects/">projects</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/repositories/">repositories</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/cv/">cv</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/teaching/">teaching</a>
-              </li>
-              <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">submenus</a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/publications/">publications</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="/projects/">projects</a>
-                </div>
-              </li>
-
-              <!-- Toogle theme mode -->
-              <li class="toggle-container">
-                <button id="light-toggle" title="Change theme">
-                  <i class="fas fa-moon"></i>
-                  <i class="fas fa-sun"></i>
-                </button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <!-- Scrolling Progress Bar -->
-      <progress id="progress" value="0">
-        <div class="progress-container">
-          <span class="progress-bar"></span>
-        </div>
-      </progress>
-    </header>
+          <!-- Toogle theme mode -->
+          <li class="toggle-container">
+            <button id="light-toggle" title="Change theme">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Scrolling Progress Bar -->
+  <progress id="progress" value="0">
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+  </progress>
+</header>
 
 
     <!-- Content -->
@@ -142,23 +120,9 @@
       <table class="table table-sm table-borderless">
         
         <tr>
-          <th scope="row">Dec 10, 2022</th>
-          <td>
-              <a class="post-link" href="/blog/2022/giscus-comments/">a post with giscus comments</a>
-          </td>
-        </tr>
-      
-        <tr>
           <th scope="row">Apr 23, 2022</th>
           <td>
               <a class="post-link" href="/blog/2022/displaying-external-posts-on-your-al-folio-blog/">Displaying External Posts on Your al-folio Blog</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Feb 1, 2022</th>
-          <td>
-              <a class="post-link" href="/blog/2022/redirect/">a post with redirect</a>
           </td>
         </tr>
       
