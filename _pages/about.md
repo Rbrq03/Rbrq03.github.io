@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 
 Hi, I am Jiannan Huang, a second year undergraduate student at Beijing Jiaotong University (BJTU)
 
-I like self-taught computer science, I highly recommand you to learn course in this list if you want to dive into corresponding area.
+I like self-taught computer science, I highly recommand you to learn course in this [list](https://rbrq03.github.io/blog/2023/custom-blockquotes/) if you want to dive into corresponding area.
 
 My research interest includes multi-model areas. Currently, I am interest on equipping LLMs with multi-model ability and large multi-model models.
 
