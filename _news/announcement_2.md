@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We release [Study In BJTU](<(https://github.com/Rbrq03/Study-In-BJTU)>), a project that contain unofficial latex & markdown template of BJTU.
+We release [Study In BJTU](<(https://github.com/Rbrq03/Study-In-BJTU)>), a project that includes unofficial LaTeX and Markdown templates for homework and slides for BJTU.
