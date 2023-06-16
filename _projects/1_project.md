@@ -1,80 +1,48 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Study In BJTU
+description: A project that can help you make proper slides and documents at BJTU, escpecially with Latex and Markdown
+img: assets/img/logo.png
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# 所有模版请参阅:[Study In BJTU GitHub 仓库](https://github.com/Rbrq03/Study-In-BJTU)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+这个仓库收纳了一些你在北京交通大学学习工作会使用到的模版,我们衷心的希望这个项目可以优化在北京交通大学就读以及工作的体验,如果这个项目能帮助到您,我们将感到非常开心
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## 最新内容
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+目前这个仓库包括了以下模版
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+1.  ppt 模版(包括使用 powerpoint 直接制作, 以及 markdown 的版本)
+2.  作业模版(特别是正式的实验报告模版, 包括 latex 版本 和 word 版本)
+3.  latex 版本的毕业论文模版
 
+## 更新计划
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+我们计划更新以下模版:
 
+1.  word 的毕业论文
+2.  beamer 模版
+3.  完善对应的模版
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## 联系我们
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+如果您对这个项目有任何的问题或者愿意加入我们,请联系rbrq03@outlook.com
+
+## 版权说明
+
+如果您希望在这个仓库上进一步开发, 只需要在您的主页提到我们的项目即可, 同时也欢迎您联系rbrq03@outlook.com一起合作建设一个更完善的仓库
+
+## 致谢
+
+这个项目参考了非常广泛的类似项目,我们向位于但不限于以下的人员以及项目表达衷心的感激,这个列表没有顺序区别
+
+- 北京交通大学毕业论文 latex 模版
+- 北京交通大学 beamer 模版
+- 中国科学院大学 Marp 模版
+
+除了 contributor 外, 我们衷心感谢下面几位开发者的贡献，他们的开源项目让这个仓库更加完善:
+
+- [PaulZhn](https://github.com/paulzhn)
