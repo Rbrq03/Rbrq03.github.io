@@ -56,6 +56,7 @@ Let's start!
 #### For newbie
 
 - **MIT Missing Semester**
+  
   While working on my first project, I find various tools that I don't know before such as git, shell. No one taught me how to use them, assuming I was already proficient. This course taught me how to use these tools. I highly recommend taking this course immediately after or even during learning your first programming language.
 
   _Website of this course_: [https://missing.csail.mit.edu/2020/](https://missing.csail.mit.edu/2020/)
@@ -92,6 +93,7 @@ Let's start!
 #### System
 
 - **CSAPP**
+  
   After taking this course seriously, your understanding of computer systems will definitely go up a notch. Although it can be challenging and demanding in terms of workload, it is important to avoid relying on others' code and ideas. Enjoy it!
 
   _Website of this course_: [http://csapp.cs.cmu.edu/](http://csapp.cs.cmu.edu/)
