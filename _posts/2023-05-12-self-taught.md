@@ -13,22 +13,18 @@ related_posts: false
 The following is a list of courses and clerks that I have studied and highly recommend others to study:
 
 1.  **For newbie**:
-
     - [MIT Missing-semester](https://missing.csail.mit.edu/2020/): For some basic tools such as git, shell, tmux...
     - [Learn Git Branching](https://learngitbranching.js.org): Learn git in game mode
     - [UCB CS61A](https://inst.eecs.berkeley.edu/~cs61a/su20/): You will get idea of "coding" in this course.
 
 2.  **Algorithms and Data Structre**:
-
     - [UCB CS61B](https://sp18.datastructur.es/): Excellent Algorithms and Data Structre course.
     - [UCB CS170](https://cs170.org/): Harder version.
 
 3.  **Software Construction**
-
     - [MIT 6.031](https://web.mit.edu/6.031/www/sp21/): Coding, coding and coding... But I love it!
 
 4.  **System**
-
     - [CMU CSAPP](http://csapp.cs.cmu.edu/): No need for introduction.
 
 5.  **Deep Learning**
