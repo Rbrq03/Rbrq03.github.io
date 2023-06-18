@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Course list for self-taught computer science
-date:
+date: 2023-05-12 21:01:00
 description:
 categories:
 giscus_comments: true
