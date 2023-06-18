@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 
 Hi, I am Jiannan Huang, a second year undergraduate student at Beijing Jiaotong University (BJTU)
 
-I like self-taught computer science, and I highly recommend exploring the courses listed in this [resource](https://rbrq03.github.io/blog/2023/custom-blockquotes/) if you're interested in getting started or diving into specific areas.
+I like self-taught computer science, and I highly recommend exploring the courses listed in this [resource](https://rbrq03.github.io/blog/2023/self-taught/) if you're interested in getting started or diving into specific areas.
 
 My research interests include a wide range of areas in machine learning and multimodality. Currently, I am focusing on enhancing Large Language Models (LLMs) with multimodal capabilities and exploring the development of large-scale multimodal models.
 
