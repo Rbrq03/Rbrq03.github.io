@@ -1,10 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://rbrq03.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rbrq03.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-16T01:32:28+00:00</updated><id>https://rbrq03.github.io/feed.xml</id><title type="html">Jiannan Huang</title><subtitle>Homepage of Jiannan Huang
-</subtitle><entry><title type="html">Course list for self-taught computer science</title><link href="https://rbrq03.github.io/blog/2023/custom-blockquotes/" rel="alternate" type="text/html" title="Course list for self-taught computer science" /><published>2023-05-12T19:53:00+00:00</published><updated>2023-05-12T19:53:00+00:00</updated><id>https://rbrq03.github.io/blog/2023/custom-blockquotes</id><content type="html" xml:base="https://rbrq03.github.io/blog/2023/custom-blockquotes/"><![CDATA[<p>The following is a list of courses and clerks that I have studied and highly recommend others to study:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://rbrq03.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rbrq03.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-18T06:20:38+00:00</updated><id>https://rbrq03.github.io/feed.xml</id><title type="html">Jiannan Huang</title><subtitle>Homepage of Jiannan Huang
+</subtitle><entry><title type="html">Course list for self-taught computer science</title><link href="https://rbrq03.github.io/blog/2023/custom-blockquotes/" rel="alternate" type="text/html" title="Course list for self-taught computer science" /><published>2023-05-12T19:53:00+00:00</published><updated>2023-05-12T19:53:00+00:00</updated><id>https://rbrq03.github.io/blog/2023/custom-blockquotes</id><content type="html" xml:base="https://rbrq03.github.io/blog/2023/custom-blockquotes/"><![CDATA[<p><strong>TL;DR;</strong></p>
+
+<p>The following is a list of courses and clerks that I have studied and highly recommend others to study:</p>
 
 <ol>
-  <li><strong>Book</strong>: Dive into deep Learning</li>
-  <li><strong>CMU</strong>: CSAPP</li>
-  <li><strong>MIT</strong>: 6.031-Software Construction, Missing-semester</li>
-  <li><strong>Standford</strong>: CS231n</li>
-  <li><strong>UCB</strong>: CS61a, CS61b, CS170</li>
-</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[The following is a list of courses and clerks that I have studied and highly recommend others to study:]]></summary></entry></feed>
+  <li>
+    <p><strong>For newbie</strong>:</p>
+
+    <ul>
+      <li><a href="https://missing.csail.mit.edu/2020/">MIT Missing-semester</a>: For some basic tools such as git, shell, tmux…</li>
+      <li><a href="https://learngitbranching.js.org">Learn Git Branching</a>: Learn git in game mode</li>
+      <li><a href="https://inst.eecs.berkeley.edu/~cs61a/su20/">UCB CS61A</a>: You will get idea of “coding” in this course.</li>
+    </ul>
+  </li>
+  <li><strong>Algorithms and Data Structre</strong>:
+    <ul>
+      <li><a href="https://sp18.datastructur.es/">UCB CS61B</a>: Excellent Algorithms and Data Structre course.</li>
+      <li><a href="https://cs170.org/">UCB CS170</a>: Harder version.</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Software Construction</strong></p>
+
+    <ul>
+      <li><a href="https://web.mit.edu/6.031/www/sp21/">MIT 6.031</a>: Coding, coding and coding… But I love it!</li>
+    </ul>
+  </li>
+  <li><strong>Deep Learning</strong>
+    <ul>
+      <li><a href="">Dive into Deep Learning</a>: Learn Deep Learning while practing.</li>
+      <li><a href="">CS231n</a>: A hardcore but excellent computer vision course.</li>
+    </ul>
+  </li>
+</ol>
+
+<!-- 1. **Book**: Dive into deep Learning
+1. **CMU**: CSAPP
+2. **MIT**: 6.031-Software Construction, Missing-semester
+3. **Standford**: CS231n
+4. **UCB**: CS61a, CS61b, CS170 -->
+
+<hr />
+
+<h3 id="why-this-page">Why this page</h3>
+
+<p>During my undergraduate years, I found that the courses from renowned universities around the world played a pivotal role in my personal growth. Some of them deepened my understanding of specific fields, while others enhanced my coding skills. Certain courses challenged and sharpened my thinking abilities, and a few even introduced me to the world of research in areas that genuinely interest me. Moreover, the period during which I worked hard in these courses made me more self-motivated.</p>
+
+<p>In all the courses I have taken, I find some to be truly excellent. Therefore, I highly recommend anyone who is new to Computer Science (whether they are freshmen or anyone interested in gaining some knowledge of Computer Science) to learn the following courses.</p>
+
+<p>If you cannot find a suitable course for yourself in the following list, you can check out <a href="https://csdiy.wiki">csdiy</a>, a website that gathers numerous computer science courses. It was established by a student from Peking University, and I have personally gained a lot from this website as well.</p>
+
+<p>Finally, I would like to express my respect to the professors who teach these courses and make them open-access. Their efforts have enabled people from all around the world to access equal and high-quality education.</p>
+
+<p>Let’s start!</p>
+
+<h3 id="course-list">Course List</h3>
+
+<h4 id="for-newbie">For newbie</h4>
+
+<ul>
+  <li>
+    <p><strong>MIT Missing Semester</strong>
+While working on my first project, I find various tools that I don’t know before such as git, shell. No one taught me how to use them, assuming I was already proficient. This course taught me how to use these tools. I highly recommend taking this course immediately after or even during learning your first programming language.</p>
+
+    <p><em>Website of this course</em>: https://missing.csail.mit.edu/2020/</p>
+  </li>
+</ul>
+
+<p>-</p>]]></content><author><name></name></author><summary type="html"><![CDATA[TL;DR;]]></summary></entry></feed>
