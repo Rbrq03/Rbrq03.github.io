@@ -23,3 +23,5 @@ I like self-taught computer science, and I highly recommend exploring the course
 My research interests include a wide range of areas in machine learning and multimodality. Currently, I am focusing on enhancing Large Language Models (LLMs) with multimodal capabilities and exploring the development of large-scale multimodal models.
 
 During my undergraduate research experience, I had the privilege of interning at the [Wei Lab](https://weiyc.github.io) at [Beijing Jiaotong University](https://www.bjtu.edu.cn)(Major Mentor:Prof. [Yunchao Wei](https://weiyc.github.io)), and [Knowledge Engineering Group](http://keg.cs.tsinghua.edu.cn) at [Tsinghua University](http://tsinghua.edu.cn) (Major Mentor: Prof. [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/))
+
+[CV](https://drive.google.com/file/d/1acdtXJEjeHUA_t2fSEJbF0JUaoIoHnG2/view?usp=sharing)
