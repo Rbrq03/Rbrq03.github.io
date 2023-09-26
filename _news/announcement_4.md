@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have ended my studies and work at KEG. Thanks to Jiazheng Xu, Xiao Liu, and Prof.Jie Tang!
+I have ended my studies and work at KEG. Thanks to Jiazheng Xu, Xiao Liu, and Prof. Jie Tang!
