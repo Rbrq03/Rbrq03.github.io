@@ -26,7 +26,7 @@ My research interests include a wide range of areas in Machine Learning and Mult
 * Multimodal Agents: Establishment of Multimodal Agents
 * Multimodal Understanding: Development and Application of Large-scale Multi-modal models.
 
-During my undergraduate research experience, I had the privilege of interning at the [Wei Lab](https://weiyc.github.io) at [Beijing Jiaotong University](https://www.bjtu.edu.cn)(Major Mentor: Prof. [Yunchao Wei](https://weiyc.github.io)), and [Knowledge Engineering Group](http://keg.cs.tsinghua.edu.cn) at [Tsinghua University](http://tsinghua.edu.cn) (Major Mentor: Prof. [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/))
+During my undergraduate research experience, I had the privilege of interning at the [Wei Lab](https://weiyc.github.io) at [Beijing Jiaotong University](https://www.bjtu.edu.cn) (Major Mentor: Prof. [Yunchao Wei](https://weiyc.github.io)), and [Knowledge Engineering Group](http://keg.cs.tsinghua.edu.cn) at [Tsinghua University](http://tsinghua.edu.cn) (Major Mentor: Prof. [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/))
 
 If you would like to collaborate with me or have any questions about me, please feel free to send me an [email](mailto:jiannan2003@gmail.com)
 
