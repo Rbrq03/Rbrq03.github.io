@@ -20,9 +20,9 @@ Hi, I am Jiannan Huang, a junior student majoring in Computer Science and Techno
 
 I like self-taught computer science, and I highly recommend exploring the courses listed in this [page](https://rbrq03.github.io/blog/2023/self-taught/) if you're interested in getting started or diving into specific areas.
 
-My research interests include a wide range of areas in Machine Learning and Multi-modal AI. Currently, I am focusing on following specific topics:
+My research interests include a wide range of Machine Learning and Multi-modal AI areas. Currently, I am focusing on the following specific topics:
 
-* Generative Model and its controllability: Controllable Text-to-Image/Video Generation, Image/Video Editing,
+* Generative Model and its controllability: Controllable Text-to-Image/Video Generation, Image/Video Editing, Image/Video Personalization.
 * Multimodal Agents: Establishment of Multimodal Agents
 * Multimodal Understanding: Development and Application of Large-scale Multi-modal models.
 
