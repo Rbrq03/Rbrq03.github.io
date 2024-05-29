@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We release [ClassDiffusion]{https://arxiv.org/abs/2405.17532}, a simple and effective method for more aligned personalized generation!
+We release [ClassDiffusion](https://arxiv.org/abs/2405.17532), a simple and effective method for more aligned personalized generation!
