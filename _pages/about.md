@@ -35,7 +35,6 @@ During my undergraduate research experience, I had the privilege of interning at
     Currently, I'm looking for a Ph.D student position! Feel free to send me an 
     <a href="mailto:jiannan2003@gmail.com">email</a> if you are interested.
   </i>
-</font><br/>
-
+</font>
 
 [CV](https://drive.google.com/file/d/1acdtXJEjeHUA_t2fSEJbF0JUaoIoHnG2/view?usp=sharing)
