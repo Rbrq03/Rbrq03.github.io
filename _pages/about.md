@@ -30,6 +30,6 @@ During my undergraduate research experience, I had the privilege of interning at
 
 <!-- If you would like to collaborate with me or have any questions about me, please feel free to send me an [email](mailto:jiannan2003@gmail.com) -->
 
-<font color="#dd0000"> _Currently, I'm looking for a Ph.D student position! Feel free to send me an [email](mailto:jiannan2003@gmail.com) if you are interested._ </font><br/> 
+<font color="#dd0000"> <i>Currently, I'm looking for a Ph.D student position! Feel free to send me an [email](mailto:jiannan2003@gmail.com) if you are interested.</i> </font><br/> 
 
 [CV](https://drive.google.com/file/d/1acdtXJEjeHUA_t2fSEJbF0JUaoIoHnG2/view?usp=sharing)
