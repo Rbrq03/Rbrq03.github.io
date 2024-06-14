@@ -70,20 +70,23 @@ layout: default
     </div>
 
     <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+      }
       body {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
-        margin: 0;
       }
       #globe-container {
-        width: 150px;
-        height: 150px;
+        width: 300px;  /* 设置你想要的宽度 */
+        height: 300px; /* 设置你想要的高度 */
       }
-      #globe-container iframe {
+      iframe {
         width: 100%;
         height: 100%;
+        border: none; /* 确保没有边框 */
       }
     </style>
 
