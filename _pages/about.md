@@ -26,13 +26,13 @@ My research interests include a wide range of Machine Learning and Multi-modal A
 
 During my undergraduate research experience, I had the privilege of interning at the [Wei Lab](https://weiyc.github.io) at [Beijing Jiaotong University](https://www.bjtu.edu.cn) (Major Mentor: Prof. [Yunchao Wei](https://weiyc.github.io)), and [Knowledge Engineering Group](http://keg.cs.tsinghua.edu.cn) at [Tsinghua University](http://tsinghua.edu.cn) (Major Mentor: Prof. [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/))
 
-<!-- If you would like to collaborate with me or have any questions about me, please feel free to send me an [email](mailto:jiannan2003@gmail.com) -->
+If you would like to collaborate with me or have any questions about me, feel free to send me an [email](mailto:jiannan2003@gmail.com)
 
-<font color="#dd0000">
+<!-- <font color="#dd0000">
   <i>
     Currently, I'm looking for a Ph.D student position! Feel free to send me an 
     <a href="mailto:jiannan2003@gmail.com">email</a> if you are interested.
   </i>
-</font>
+</font> -->
 
 [CV](https://drive.google.com/file/d/1acdtXJEjeHUA_t2fSEJbF0JUaoIoHnG2/view?usp=sharing)
