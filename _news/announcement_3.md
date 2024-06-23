@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I joined [Knowledge Engineering Group](http://keg.cs.tsinghua.edu.cn) as a Research Intership !
+I joined [Knowledge Engineering Group](http://keg.cs.tsinghua.edu.cn) as a Visiting Student !

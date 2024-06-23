@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I joined [Wei Lab](https://weiyc.github.io) as a Research Intership !
+I joined [Wei Lab](https://weiyc.github.io) as an Undergraduate Researcher!

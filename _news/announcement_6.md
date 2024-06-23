@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I joined [SHI Lab](https://www.shi-labs.com/)!
+I joined [SHI Lab](https://www.shi-labs.com/) as an Undergraduate Researcher!
