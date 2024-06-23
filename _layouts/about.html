@@ -61,26 +61,43 @@ layout: default
 
     <style>
       #globe-container {
-        width: 100px; 
+        width: 100px;
         height: 100px;
       }
     </style>
 
-    <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      "
+    >
       <!-- Social -->
       {%- if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.html %}</div>
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
-      {%- endif %}   
+      {%- endif %}
     </div>
 
-    <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      "
+    >
       <div id="globe-container">
-        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=IUq-qeoK8htQ5yBMPYD3ANBQGDxRWPSR6_LFXNUDPk4"></script>
+        <script
+          type="text/javascript"
+          id="clstr_globe"
+          src="//clustrmaps.com/globe.js?d=IUq-qeoK8htQ5yBMPYD3ANBQGDxRWPSR6_LFXNUDPk4"
+        ></script>
       </div>
     </div>
-  
   </article>
 </div>
