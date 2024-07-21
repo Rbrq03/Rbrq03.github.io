@@ -2,18 +2,31 @@
 ---
 
 <!-- _layouts/bib.html -->
-<div class="row">
-  <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
+<div class="row custom-width-row">
+  <div
+    class="col-sm-2 custom-width-preview {% if entry.preview %}preview{% else %}abbr{% endif %}"
+  >
     {%- if entry.preview -%} {% if entry.preview contains '://' -%}
-    <img class="preview z-depth-1 rounded" src="{{ entry.preview }}" />
+    <img
+      class="preview z-depth-1 rounded custom-width-preview"
+      src="{{ entry.preview }}"
+    />
     {%- else -%} {%- assign entry_path = entry.preview | prepend:
     '/assets/img/publication_preview/' -%} {% include figure.html
-    path=entry_path class="preview z-depth-1 rounded" alt=entry.preview -%} {%-
-    endif -%} {%- elsif entry.abbr -%} {%- if site.data.venues[entry.abbr] -%}
-    {%- assign venue_style = nil -%} {%- if site.data.venues[entry.abbr].color
-    != blank -%} {%- assign venue_style = site.data.venues[entry.abbr].color |
-    prepend: 'style="background-color:' | append: '"' -%} {%- endif -%}
-    <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}
+    path=entry_path class="preview z-depth-1 rounded custom-width-preview"
+    alt=entry.preview -%} {%- endif -%} {%- elsif entry.abbr -%} {%- if
+    site.data.venues[entry.abbr] -%} {%- assign venue_style = nil -%} {%- if
+    site.data.venues[entry.abbr].color != blank -%} {%- assign venue_style =
+    site.data.venues[entry.abbr].color | prepend: 'style="background-color:' |
+    append: '"' -%} {%- endif -%}
+    <abbr
+      class="badge custom-width-preview"
+      {%
+      if
+      venue_style
+      %}{{venue_style}}{%
+      endif
+      %}
       ><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr
     >
     {%- else -%}
@@ -255,3 +268,12 @@
     {%- endif %}
   </div>
 </div>
+
+<style>
+  .custom-width-row {
+    width: 1200px !important;
+  }
+  .custom-width-preview {
+    max-width: 500px !important;
+  }
+</style>

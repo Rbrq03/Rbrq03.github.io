@@ -17,13 +17,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I am Jiannan Huang, a junior undergraduate student majoring in Computer Science and Technology at Beijing Jiaotong University(BJTU).
+Hi, I am Jiannan Huang, a junior undergraduate student majoring in Computer Science and Technology at Beijing Jiaotong University (BJTU).
 
 My research interests include a wide range of Machine Learning and Multi-modal AI areas. Currently, I am focusing on the following specific topics:
 
-- Generative Model and its controllability: Controllable Text-to-Image/Video Generation, Image/Video Editing, Image/Video Personalization.
-- Multimodal Understanding & Generation: Development and Application of Large-scale Multi-modal models.
-- Multimodal Agents: Establishment of Multimodal Agents
+- **Generative Model and its controllability**: Controllable Text-to-Image/Video Generation, Image/Video Editing, Image/Video Personalization.
+
+- **Multimodal Understanding & Generation**: Development and Application of Large-scale Multi-modal models.
+
+- **Multimodal Agents**: Establishment of Multimodal Agents
 
 <!-- During my undergraduate research experience, I had the privilege of studying and working at the [Wei Lab](https://weiyc.github.io) at [Beijing Jiaotong University](https://www.bjtu.edu.cn) (Major Mentor: Prof. [Yunchao Wei](https://weiyc.github.io)), [Knowledge Engineering Group](http://keg.cs.tsinghua.edu.cn) at [Tsinghua University](http://tsinghua.edu.cn) (Major Mentor: Prof. [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/)), and [SHI Labs](https://www.shi-labs.com/) at [Georgia Tech](https://ic.gatech.edu/) (Major Mentor: Prof. [Humphery Shi](https://www.humphreyshi.com/)) -->
 
