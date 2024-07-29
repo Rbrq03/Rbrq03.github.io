@@ -20,7 +20,7 @@
     site.data.venues[entry.abbr].color | prepend: 'style="background-color:' |
     append: '"' -%} {%- endif -%}
     <abbr
-      class="badge custom-width-preview"
+      class="badge custom-font-badge"
       {%
       if
       venue_style
@@ -30,7 +30,7 @@
       ><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr
     >
     {%- else -%}
-    <abbr class="badge">{{entry.abbr}}</abbr>
+    <abbr class="badge custom-font-badge">{{entry.abbr}}</abbr>
     {%- endif -%} {%- endif -%}
   </div>
 
@@ -275,5 +275,8 @@
   }
   .custom-width-preview {
     max-width: 500px !important;
+  }
+  .custom-font-badge {
+    font-size: 100% !important;
   }
 </style>
