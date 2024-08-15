@@ -203,19 +203,35 @@
 <li>
 <!-- _layouts/bib.html -->
 <div class="row custom-width-row">
-  <div class="col-sm-2 custom-width-preview abbr"><abbr class="badge custom-font-badge">ECCV24</abbr></div>
+  <div class="col-sm-2 custom-width-preview preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/collaborative-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/collaborative-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/collaborative-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/collaborative.png" class="preview z-depth-1 rounded custom-width-preview" width="auto" height="auto" alt="collaborative.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
 
   <!-- Entry bib key -->
-  <div id="jiao2024coll" class="col-sm-8">
+  <div id="jiao2024collaborativevisiontextrepresentationoptimizing" class="col-sm-8">
     <!-- Title -->
     <div class="title">Collaborative Vision-Text Representation Optimizing for Open-Vocabulary Segmentation</div>
     <!-- Author -->
     <div class="author">
-       Siyu Jiao, Hongguang Zhu, Yunchao Wei, Yao Zhao, <em>Jiannan Huang</em>, and
+       Siyu Jiao, Hongguang Zhu, <em>Jiannan Huang</em>, Yao Zhao, Yunchao Wei, and
       <span class="more-authors" title="click to view 1 more author" onclick="
                 var element = $(this);
                 element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Humphery Shi' : '1 more author';
+                var more_authors_text = element.text() == '1 more author' ? 'Humphrey Shi' : '1 more author';
                 var cursorPosition = 0;
                 var textAdder = setInterval(function(){
                   element.text(more_authors_text.substring(0, cursorPosition + 1));
@@ -232,10 +248,11 @@
 
     <!-- Links/Buttons -->
     <div class="links">
+      <a href="http://arxiv.org/abs/2408.00744" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a> <a href="https://arxiv.org/pdf/2408.00744" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
     </div>
     
     <div class="badges">
-      <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+      <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-arxiv-id="2408.00744"></span>
       <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px"></span>
     </div> 
   </div>
@@ -329,7 +346,7 @@
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2024 Jiannan  Huang. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme.
-Last updated: July 29, 2024.
+Last updated: August 15, 2024.
       </div>
     </footer>
 
