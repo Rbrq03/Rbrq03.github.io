@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I am Jiannan Huang, a junior undergraduate student majoring in Computer Science and Technology at Beijing Jiaotong University (BJTU).
+Hi, I am Jiannan Huang, a senior undergraduate student majoring in Computer Science and Technology at Beijing Jiaotong University (BJTU).
 
 My research interests include a wide range of Machine Learning and Multi-modal AI areas. Currently, I am focusing on the following specific topics:
 
