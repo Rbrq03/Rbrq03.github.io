@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper is accepted to ECCV2024 as Oral!
+One paper is accepted to ECCV2024 as Oral, congrats to Siyu and Hongguang!

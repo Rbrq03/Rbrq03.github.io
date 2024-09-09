@@ -15,6 +15,7 @@ latest_posts: false # includes a list of the newest posts
 experiences: true
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+service: true
 ---
 
 Hi, I am Jiannan Huang, a senior undergraduate student majoring in Computer Science and Technology at Beijing Jiaotong University (BJTU).

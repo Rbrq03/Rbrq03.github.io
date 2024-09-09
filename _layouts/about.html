@@ -69,6 +69,15 @@ layout: default
     </h2>
     {%- include selected_papers.html %} {%- endif %}
 
+    <!-- Service -->
+    {% if page.service -%}
+    <h2>
+      <a href="{{ '/service/' | relative_url }}" style="color: inherit"
+        >Service</a
+      >
+    </h2>
+    {%- include service.html %} {%- endif %}
+
     <style>
       #globe-container {
         width: 100px;
