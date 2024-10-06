@@ -6,7 +6,7 @@ title: Jiannan Huang # the website title (if blank, full name will be used inste
 first_name: Jiannan
 middle_name:
 last_name: Huang
-email: rbrq03@gmail.com
+email: rbrq03@outlook.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Homepage of Jiannan Huang
 footer_text: >
@@ -72,12 +72,12 @@ github_username: Rbrq03 # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: Jiannan03 # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: Jiannan Huang # your LinkedIn user name
+linkedin_username: jiannan-huang-79a9a4290 # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: Hy7YWAUAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: # your ORCID ID
+orcid_id: 0009-0002-2447-9928 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -90,7 +90,7 @@ work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
-dblp_url: # your DBLP profile url
+dblp_url: https://dblp.org/pid/241/3623-2 # your DBLP profile url
 stackoverflow_id: # your stackoverflow id
 kaggle_id: # your kaggle id
 lastfm_id: # your lastfm id
