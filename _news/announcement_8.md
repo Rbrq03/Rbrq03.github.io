@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One of our paper: ClassDiffusion is accepted to ICLR2025!
+Our paper ClassDiffusion is accepted to ICLR2025!
