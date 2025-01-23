@@ -6,7 +6,7 @@ title: Jiannan Huang # the website title (if blank, full name will be used inste
 first_name: Jiannan
 middle_name:
 last_name: Huang
-email: rbrq03@outlook.com
+email: jiannan2003@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Homepage of Jiannan Huang
 footer_text: >
@@ -52,7 +52,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 1104px
+max_width: 1200px
 
 # TODO: add layout settings (single page vs. multi-page)
 
