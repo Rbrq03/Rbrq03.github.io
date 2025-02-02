@@ -28,9 +28,9 @@ Hi, I am Jiannan Huang, a final-year undergraduate student majoring in Computer 
 
 My research interests include a wide range of Machine Learning and Multi-modal AI areas. Currently, I am focusing on the following specific topics:
 
-- **Controllable Generation**: I am particularly interested in topics related to generation controllability, especially in Image/Video Subject-Driven Personalization, Image/Video Editing, and Spatial-Conditional Image/Video Generation.
+- **Controllable Generation**: Focus on generation controllability, particularly in Image/Video Subject-Driven Personalization, Image/Video Editing, and Spatial-Conditional Image/Video Generation.
 - **Multimodal Understanding & Generation**: Focus on the development and application of large-scale multimodal generative models.
-- **Agent-based Computer Vision**: Developing agents for practical applications in computer vision, serving for real-world applications.
+- **Agent-based Computer Vision**: Create agents for practical applications in computer vision, serving for real-world applications.
 
 <!-- During my undergraduate research experience, I had the privilege of studying and working at the [Wei Lab](https://weiyc.github.io) at [Beijing Jiaotong University](https://www.bjtu.edu.cn) (Major Mentor: Prof. [Yunchao Wei](https://weiyc.github.io)), [Knowledge Engineering Group](http://keg.cs.tsinghua.edu.cn) at [Tsinghua University](http://tsinghua.edu.cn) (Major Mentor: Prof. [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/)), and [SHI Labs](https://www.shi-labs.com/) at [Georgia Tech](https://ic.gatech.edu/) (Major Mentor: Prof. [Humphery Shi](https://www.humphreyshi.com/)) -->
 
