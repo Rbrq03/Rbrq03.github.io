@@ -34,7 +34,7 @@ My research interests include a wide range of Machine Learning and Multi-modal A
 
 <!-- During my undergraduate research experience, I had the privilege of studying and working at the [Wei Lab](https://weiyc.github.io) at [Beijing Jiaotong University](https://www.bjtu.edu.cn) (Major Mentor: Prof. [Yunchao Wei](https://weiyc.github.io)), [Knowledge Engineering Group](http://keg.cs.tsinghua.edu.cn) at [Tsinghua University](http://tsinghua.edu.cn) (Major Mentor: Prof. [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/)), and [SHI Labs](https://www.shi-labs.com/) at [Georgia Tech](https://ic.gatech.edu/) (Major Mentor: Prof. [Humphery Shi](https://www.humphreyshi.com/)) -->
 
-I am open to any collaboration in topics I familared with. If you would like to collaborate with me or have any questions or just chat, feel free to send me an [email](mailto:jiannan2003@gmail.com)
+I am open to any collaboration on topics with which I am familiar. If you would like to collaborate with me or have any questions or just chat, feel free to send me an [email](mailto:jiannan2003@gmail.com)
 
 <!-- <font color="#dd0000">
   <i>
