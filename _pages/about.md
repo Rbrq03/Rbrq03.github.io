@@ -20,15 +20,21 @@ service: true
 
 Hi, I am Jiannan Huang, a final-year undergraduate student majoring in Computer Science and Technology at Beijing Jiaotong University (BJTU).
 
-My research interests include a wide range of Machine Learning and Multi-modal AI areas. Currently, I am focusing on the following specific topics:
+<!-- My research interests include a wide range of Machine Learning and Multi-modal AI areas. Currently, I am focusing on the following specific topics:
 
 - **Generative Model and its controllability**: Controllable Text-to-Image/Video Generation, Image/Video Editing, Image/Video Personalization.
 - **Multimodal Understanding & Generation**: Development and Application of Large-scale Multi-modal models.
-- **Multimodal Agents**: Establishment of Multimodal Agents for real-world application.
+- **Multimodal Agents**: Establishment of Multimodal Agents for real-world application. -->
+
+My research interests include a wide range of Machine Learning and Multi-modal AI areas. Currently, I am focusing on the following specific topics:
+
+- **Controllable Generation**: I am particularly interested in topics related to generation controllability, especially in Image/Video Subject-Driven Personalization, Image/Video Editing, and Spatial-Conditional Image/Video Generation.
+- **Multimodal Understanding & Generation**: Focus on the development and application of large-scale multimodal generative models.
+- **Agent-based Computer Vision**: Developing agents for practical applications in computer vision, serving for real-world applications.
 
 <!-- During my undergraduate research experience, I had the privilege of studying and working at the [Wei Lab](https://weiyc.github.io) at [Beijing Jiaotong University](https://www.bjtu.edu.cn) (Major Mentor: Prof. [Yunchao Wei](https://weiyc.github.io)), [Knowledge Engineering Group](http://keg.cs.tsinghua.edu.cn) at [Tsinghua University](http://tsinghua.edu.cn) (Major Mentor: Prof. [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/)), and [SHI Labs](https://www.shi-labs.com/) at [Georgia Tech](https://ic.gatech.edu/) (Major Mentor: Prof. [Humphery Shi](https://www.humphreyshi.com/)) -->
 
-If you would like to collaborate with me or have any questions or just chat, feel free to send me an [email](mailto:jiannan2003@gmail.com)
+I am open to any collaboration in topics I familared with. If you would like to collaborate with me or have any questions or just chat, feel free to send me an [email](mailto:jiannan2003@gmail.com)
 
 <!-- <font color="#dd0000">
   <i>
