@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper ClassDiffusion is accepted to ICLR2025, see you Singapore! 🎉
+Our paper ClassDiffusion is accepted to ICLR2025, Let's meet at Singapore! 🎉
