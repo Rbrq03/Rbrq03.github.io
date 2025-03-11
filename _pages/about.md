@@ -8,7 +8,7 @@ profile:
   align: right
   image: jiannan.jpeg
   image_circular: false # crops the image to make it circular
-  address: Email. jiannan2003 at gmail dot com
+  address: >
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
@@ -35,6 +35,8 @@ My research interests include diverse topics of Multi-modal AI and Generative Mo
 <!-- During my undergraduate research experience, I had the privilege of studying and working at the [Wei Lab](https://weiyc.github.io) at [Beijing Jiaotong University](https://www.bjtu.edu.cn) (Major Mentor: Prof. [Yunchao Wei](https://weiyc.github.io)), [Knowledge Engineering Group](http://keg.cs.tsinghua.edu.cn) at [Tsinghua University](http://tsinghua.edu.cn) (Major Mentor: Prof. [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/)), and [SHI Labs](https://www.shi-labs.com/) at [Georgia Tech](https://ic.gatech.edu/) (Major Mentor: Prof. [Humphery Shi](https://www.humphreyshi.com/)) -->
 
 I am open to any collaboration on topics with which I am familiar. If you would like to collaborate with me or have any questions or just chat, feel free to send me an email.
+
+Email: jiannan2003 at gmail dot com
 
 <!-- <font color="#dd0000">
   <i>
