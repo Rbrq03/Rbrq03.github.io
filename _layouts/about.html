@@ -60,6 +60,15 @@ layout: default
     </h2>
     {%- include experiences.html %} {%- endif %}
 
+    <!-- Selected preprints -->
+    {% if page.selected_papers -%}
+    <h2>
+      <a href="{{ '/preprints/' | relative_url }}" style="color: inherit"
+        >Preprints</a
+      >
+    </h2>
+    {%- include selected_papers.html %} {%- endif %}
+
     <!-- Selected papers -->
     {% if page.selected_papers -%}
     <h2>
