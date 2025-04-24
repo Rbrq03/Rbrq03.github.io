@@ -137,6 +137,78 @@
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/gna_preview-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/gna_preview-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/gna_preview-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/gna_preview.png" class="preview z-depth-1 rounded custom-width-preview" width="auto" height="auto" alt="gna_preview.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+
+  <!-- Entry bib key -->
+  <div id="ali2025gna" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Generalized Neighborhood Attention: Multi-dimensional Sparse Attention at the Speed of Light</div>
+    <!-- Author -->
+    <div class="author">
+       Ali Hassani, Fengzhe Zhou, Aditya Kane, <em>Jiannan Huang</em>, Chieh-Yun Chen, Min Shi, Steven Walton, Markus Hoehnerbach, and
+      <span class="more-authors" title="click to view 8 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '8 more authors' ? 'Vijay Thakkar, Michael Isaev, Qinsheng Zhang, Bing Xu, Haicheng Wu, Wen-mei Hwu, Ming-Yu Liu, Humphrey Shi' : '8 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">8 more authors</span>
+</div>
+
+    <!-- Journal/Book title and date -->
+      <div class="periodical">
+<em></em> 2025</div>
+    <div class="periodical"></div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      <a href="http://arxiv.org/abs/2504.16922" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a> <a href="https://arxiv.org/pdf/2504.16922v1" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+      <a href="https://github.com/SHI-Labs/NATTEN" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+    </div>
+    
+    <div class="badges">
+      <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+      <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px"></span>
+    </div> 
+  </div>
+</div>
+
+<style>
+  .custom-width-row {
+    width: 2500px !important;
+  }
+  .custom-width-preview {
+    max-width: 500px !important;
+  }
+  .custom-font-badge {
+    font-size: 100% !important;
+  }
+</style>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+<div class="row custom-width-row">
+  <div class="col-sm-2 custom-width-preview preview">
+<figure>
+
+  <picture>
+    
     <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/classdiffusion_preview-480.webp"></source>
     <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/classdiffusion_preview-800.webp"></source>
     <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/classdiffusion_preview-1400.webp"></source>
@@ -325,8 +397,8 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2025 Jiannan  Huang. 但行好事, 莫问前程. Do good things, regardless of what the future holds.
-Last updated: April 08, 2025.
+        © Copyright 2025 Jiannan  Huang. Do great things, enjoy life of variety.
+Last updated: April 24, 2025.
       </div>
     </footer>
 
