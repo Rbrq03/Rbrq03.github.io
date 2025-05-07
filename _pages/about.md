@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 service: true
 ---
 
-Hi, I am Jiannan Huang, a final-year undergraduate student majoring in Computer Science and Technology at Beijing Jiaotong University (BJTU). Also, I am an incoming graduate student in SHI Labs@Georgia Tech, supervised by Prof. [Humphery Shi](https://www.humphreyshi.com/). I work closely with the Team of Prof. [Yunchao Wei](https://weiyc.github.io), who also supervise me during my undergraduate.
+Hi, I am Jiannan Huang, a final-year undergraduate student majoring in Computer Science and Technology at Beijing Jiaotong University (BJTU). Also, I am an incoming graduate student Georgia Tech, supervised by Prof. [Humphery Shi](https://www.humphreyshi.com/). I work closely with the Team of Prof. [Yunchao Wei](https://weiyc.github.io), who also supervise me during my undergraduate.
 
 <!-- My research interests include a wide range of Machine Learning and Multi-modal AI areas. Currently, I am focusing on the following specific topics:
 
@@ -28,9 +28,12 @@ Hi, I am Jiannan Huang, a final-year undergraduate student majoring in Computer 
 
 My research interests include diverse topics of Multi-modal AI and Generative Models like:
 
-- **Mutli-modal Generation**: Aim at generating image/video with multi-modal/spatial conditions.
+<!-- - **Mutli-modal Generation**: generating image/video with multi-modal/spatial conditions.
 - **Efficient Diffusion Training**: Aim at reducing budget of training a diffusion model from scratch.
-- **Agent for Computer Vision**: Aim at developing agents for fundamental computer vision problems.
+- **Agent for Computer Vision**: Aim at developing agents for fundamental computer vision problems. -->
+
+- **Text-to-Image Geration and its Controablity**: Text-to-Image Model Pre-training, Personalized Generation
+- **Unified Multi-modal Model**: Unified understanding, generation in mutli-modal models.
 
 <!-- During my undergraduate research experience, I had the privilege of studying and working at the [Wei Lab](https://weiyc.github.io) at [Beijing Jiaotong University](https://www.bjtu.edu.cn) (Major Mentor: Prof. [Yunchao Wei](https://weiyc.github.io)), [Knowledge Engineering Group](http://keg.cs.tsinghua.edu.cn) at [Tsinghua University](http://tsinghua.edu.cn) (Major Mentor: Prof. [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/)), and [SHI Labs](https://www.shi-labs.com/) at [Georgia Tech](https://ic.gatech.edu/) (Major Mentor: Prof. [Humphery Shi](https://www.humphreyshi.com/)) -->
 

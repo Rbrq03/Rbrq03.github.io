@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper AdGPT is accepted to TOMM! 🎉
+Our paper AdGPT is accepted to TOMM!

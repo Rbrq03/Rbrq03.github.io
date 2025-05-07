@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper about Generalized Neighborhood Attention(GNA) is out, congrats to Ali!🎉
+Our paper about Generalized Neighborhood Attention(GNA) is out!
