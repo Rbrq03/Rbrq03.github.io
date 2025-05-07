@@ -16,6 +16,7 @@ experiences: true
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 service: true
+education: true
 ---
 
 Hi, I am Jiannan Huang, a final-year undergraduate student majoring in Computer Science and Technology at Beijing Jiaotong University (BJTU). Also, I am an incoming graduate student Georgia Tech, supervised by Prof. [Humphery Shi](https://www.humphreyshi.com/). I work closely with the Team of Prof. [Yunchao Wei](https://weiyc.github.io), who also supervise me during my undergraduate.
@@ -47,5 +48,6 @@ Email: jiannan2003 at gmail dot com
     <a href="mailto:jiannan2003@gmail.com">email</a> if you are interested.
   </i>
 </font> -->
+
 <!--
 [CV](https://drive.google.com/file/d/1acdtXJEjeHUA_t2fSEJbF0JUaoIoHnG2/view?usp=sharing) -->

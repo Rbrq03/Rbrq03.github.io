@@ -52,6 +52,15 @@ layout: default
     {%- include latest_posts.html %} {%- endif %}
 
     <!-- Experience -->
+    {% if page.education -%}
+    <h2>
+      <a href="{{ '/education/' | relative_url }}" style="color: inherit"
+        >Education</a
+      >
+    </h2>
+    {%- include education.html %} {%- endif %}
+
+    <!-- Experience -->
     {% if page.experiences -%}
     <h2>
       <a href="{{ '/experiences/' | relative_url }}" style="color: inherit"
