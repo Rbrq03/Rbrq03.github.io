@@ -27,7 +27,7 @@ Hi, I am Jiannan Huang, a final-year undergraduate student majoring in Computer 
 - **Multimodal Understanding & Generation**: Development and Application of Large-scale Multi-modal models.
 - **Multimodal Agents**: Establishment of Multimodal Agents for real-world application. -->
 
-My research interests include diverse topics of Multi-modal AI and Generative Models like:
+My research interests include diverse topics of Multi-modal AI and Generative Models, including:
 
 <!-- - **Mutli-modal Generation**: generating image/video with multi-modal/spatial conditions.
 - **Efficient Diffusion Training**: Aim at reducing budget of training a diffusion model from scratch.
