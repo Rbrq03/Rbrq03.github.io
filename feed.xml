@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://rbrq03.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rbrq03.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-05-25T02:53:07+00:00</updated><id>https://rbrq03.github.io/feed.xml</id><title type="html">Jiannan Huang</title><subtitle>Homepage of Jiannan Huang
+</subtitle><entry><title type="html">Course list for self-taught computer science</title><link href="https://rbrq03.github.io/blog/2023/self-taught/" rel="alternate" type="text/html" title="Course list for self-taught computer science" /><published>2023-05-12T21:01:00+00:00</published><updated>2023-05-12T21:01:00+00:00</updated><id>https://rbrq03.github.io/blog/2023/self-taught</id><content type="html" xml:base="https://rbrq03.github.io/blog/2023/self-taught/"><![CDATA[<p><strong>TL;DR;</strong></p>
+
+<p>The following is a list of courses and clerks that I have studied and highly recommend others to study:</p>
+
+<ol>
+  <li><strong>For newbie</strong>:
+    <ul>
+      <li><a href="https://missing.csail.mit.edu/2020/">MIT Missing-semester</a>: For some basic tools such as git, shell, tmux…</li>
+      <li><a href="https://learngitbranching.js.org">Learn Git Branching</a>: Learn git in game mode</li>
+      <li><a href="https://inst.eecs.berkeley.edu/~cs61a/su20/">UCB CS61A</a>: You will get idea of “coding” in this course.</li>
+    </ul>
+  </li>
+  <li><strong>Algorithms and Data Structre</strong>:
+    <ul>
+      <li><a href="https://sp18.datastructur.es/">UCB CS61B</a>: Excellent Algorithms and Data Structre course.</li>
+      <li><a href="https://cs170.org/">UCB CS170</a>: Harder version.</li>
+    </ul>
+  </li>
+  <li><strong>Software Construction</strong>
+    <ul>
+      <li><a href="https://web.mit.edu/6.031/www/sp21/">MIT 6.031</a>: Coding, coding and coding… But I love it!</li>
+    </ul>
+  </li>
+  <li><strong>System</strong>
+    <ul>
+      <li><a href="http://csapp.cs.cmu.edu/">CMU CSAPP</a>: No need for introduction.</li>
+    </ul>
+  </li>
+  <li><strong>Deep Learning</strong>
+    <ul>
+      <li><a href="http://d2l.ai">Dive into Deep Learning</a>: Learn Deep Learning while practing.</li>
+      <li><a href="http://cs231n.stanford.edu">CS231n</a>: A hardcore but excellent computer vision course.</li>
+    </ul>
+  </li>
+</ol>
+
+<!-- 1. **Book**: Dive into deep Learning
+1. **CMU**: CSAPP
+2. **MIT**: 6.031-Software Construction, Missing-semester
+3. **Standford**: CS231n
+4. **UCB**: CS61a, CS61b, CS170 -->
+
+<hr />
+
+<h1 id="why-this-page">Why this page</h1>
+
+<p>During my undergraduate years, I found that the courses from renowned universities around the world played a pivotal role in my personal growth. Some of them deepened my understanding of specific fields, while others enhanced my coding skills. Certain courses challenged and sharpened my thinking abilities, and a few even introduced me to the world of research in areas that genuinely interest me. Moreover, the period during which I worked hard in these courses made me more self-motivated.</p>
+
+<p>In all the courses I have taken, I find some to be truly excellent. Therefore, I highly recommend anyone who is new to Computer Science (whether they are freshmen or anyone interested in gaining some knowledge of Computer Science) to learn the following courses.</p>
+
+<p>If you cannot find a suitable course for yourself in the following list, you can check out <a href="https://csdiy.wiki">csdiy</a>, a website that gathers numerous computer science courses. It was established by a student from Peking University, and I have personally gained a lot from this website as well.</p>
+
+<p>Lastly, I would like to express my respect to the professors who teach these courses and make them open-access. Their efforts have enabled people from all around the world to access equal and high-quality education.</p>
+
+<p>Let’s start!</p>
+
+<h1 id="course-list">Course List</h1>
+
+<h4 id="for-newbie">For newbie</h4>
+
+<ul>
+  <li>
+    <p><strong>MIT Missing Semester</strong></p>
+
+    <p>While working on my first project, I find various tools that I don’t know before such as git, shell. No one taught me how to use them, assuming I was already proficient. This course taught me how to use these tools. I highly recommend taking this course immediately after or even during learning your first programming language.</p>
+
+    <p><em>Website of this course</em>: <a href="https://missing.csail.mit.edu/2020/">https://missing.csail.mit.edu/2020/</a></p>
+  </li>
+  <li>
+    <p><strong>Learn Git Branching</strong></p>
+
+    <p>You can learn git like playing a game. And it willn’t take much time. You can learn it before your first project. Version control will greatly benefit you.</p>
+
+    <p><em>Website of this course</em>: <a href="https://missing.csail.mit.edu/2020/">https://learngitbranching.js.org</a></p>
+  </li>
+  <li>
+    <p><strong>UCB CS61A</strong></p>
+
+    <p>It’s the first course I learned online, and I really gained lots of idea about “coding” from this course such as how to view code from an abstract level, and how to write pretty code. I love it so much that I recommand it to my friends everytime when they ask me if there are some courses that can learn Python or coding. You can learn it <strong>at any time</strong> !</p>
+
+    <p><em>Website of this course</em>: <a href="https://inst.eecs.berkeley.edu/~cs61a/su20/">https://inst.eecs.berkeley.edu/~cs61a/su20/</a></p>
+  </li>
+</ul>
+
+<h4 id="algorithms-and-data-structre">Algorithms and Data Structre</h4>
+
+<ul>
+  <li>
+    <p><strong>UCB CS61B &amp; UCB CS170</strong></p>
+
+    <p>These two courses cover classic algorithms and data structures. In 61B, you will have more opportunities to practice implementing algorithms, while 170 is more focused on algorithm design.</p>
+
+    <p>61B:<a href="https://sp18.datastructur.es/">https://sp18.datastructur.es/</a>
+170:<a href="https://cs170.org/">https://cs170.org/</a></p>
+  </li>
+</ul>
+
+<h4 id="software-construction">Software Construction</h4>
+
+<ul>
+  <li>
+    <p><strong>MIT 6.031</strong></p>
+
+    <p>We often hear about the importance of writing high-quality code. This course teaches you how to write code that is <em>Safe from bugs, Easy to Understand, Ready for change</em>. Moreover, you will write a large amount of code in this course. For those who love coding and want to improve their coding skills, this course will benefit you greatly. Personally, I have noticed a significant improvement in my coding ability after completing this course.</p>
+
+    <p><em>Website of this course</em>: <a href="https://web.mit.edu/6.031/www/sp21/">https://web.mit.edu/6.031/www/sp21/</a></p>
+  </li>
+</ul>
+
+<h4 id="system">System</h4>
+
+<ul>
+  <li>
+    <p><strong>CSAPP</strong></p>
+
+    <p>After taking this course seriously, your understanding of computer systems will definitely go up a notch. Although it can be challenging and demanding in terms of workload, it is important to avoid relying on others’ code and ideas. Enjoy it!</p>
+
+    <p><em>Website of this course</em>: <a href="http://csapp.cs.cmu.edu/">http://csapp.cs.cmu.edu/</a></p>
+  </li>
+</ul>
+
+<h4 id="deep-learning">Deep Learning</h4>
+
+<ul>
+  <li>
+    <p><strong>Dive into Deep Learning</strong></p>
+
+    <p>This book was recommended to me by my first mentor. It’s a great book for beginners in deep learning, covering topics from Linear Regression to Convolutional Neural Networks (even though they may not be the most recent) to Attention. It provides beginners with a fundamental understanding of <em>What is deep learning</em>, and you will see its implementation.</p>
+
+    <p><em>Website of this book</em>: <a href="http://d2l.ai">http://d2l.ai</a></p>
+  </li>
+</ul>
+
+<h4 id="course-i-am-learning">Course I am learning</h4>
+
+<p>Currently, I am learning following courses, welcome to share your idea about them with me!</p>
+
+<ul>
+  <li>MIT 18.06</li>
+  <li>Stanford CS144</li>
+  <li>MIT Web Development Crash Course</li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[TL;DR;]]></summary></entry></feed>
