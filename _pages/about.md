@@ -19,7 +19,7 @@ service: true
 education: true
 ---
 
-Hi, I am Jiannan Huang, a final-year undergraduate student majoring in Computer Science and Technology at Beijing Jiaotong University (BJTU). Also, I am an incoming graduate student Georgia Tech, supervised by Prof. [Humphery Shi](https://www.humphreyshi.com/). I work closely with the Team of Prof. [Yunchao Wei](https://weiyc.github.io), who also supervise me during my undergraduate.
+Hi, I am Jiannan Huang, a first-year graduate student majoring in Computer Science at Georgia Tech, supervised by Prof. [Humphery Shi](https://www.humphreyshi.com/). Prior to my graduate, I hold a B.Eng. in Computer Science from Beijing Jiaotong University. During my undergradute, I had the privilege of being supervisied by Prof. [Yunchao Wei](https://weiyc.github.io).
 
 <!-- My research interests include a wide range of Machine Learning and Multi-modal AI areas. Currently, I am focusing on the following specific topics:
 
