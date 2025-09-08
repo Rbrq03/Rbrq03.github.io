@@ -62,19 +62,24 @@
         {%- endif -%}
         
         {%- comment -%} Add line break every max_per_line authors {%- endcomment -%}
-        {%- if forloop.index > 1 and forloop.index0 modulo max_per_line == 0 -%}
+        {%- assign line_break_position = forloop.index | modulo: max_per_line -%}
+        {%- if forloop.index > 1 and line_break_position == 1 -%}
           <br/>
         {%- endif -%}
         
         {%- comment -%} Add comma separator except for last author and before line breaks {%- endcomment -%}
         {%- if forloop.length > 1 -%}
           {%- if forloop.first == false -%}
-            {%- if forloop.index0 modulo max_per_line != 0 -%}
+            {%- assign next_position = forloop.index | modulo: max_per_line -%}
+            {%- if next_position != 1 -%}
               ,&nbsp;
             {%- endif -%}
           {%- endif -%}
-          {%- if forloop.last and forloop.index0 modulo max_per_line != 0 -%}
-            and&nbsp;
+          {%- if forloop.last -%}
+            {%- assign last_position = forloop.index | modulo: max_per_line -%}
+            {%- if last_position != 1 -%}
+              and&nbsp;
+            {%- endif -%}
           {%- endif -%}
         {%- endif -%}
         
