@@ -64,6 +64,7 @@
         {%- comment -%} Add line break every max_per_line authors {%- endcomment -%}
         {%- assign line_break_position = forloop.index | modulo: max_per_line -%}
         {%- if forloop.index > 1 and line_break_position == 1 -%}
+          ,&nbsp;
           <br/>
         {%- endif -%}
         
@@ -71,7 +72,7 @@
         {%- if forloop.length > 1 -%}
           {%- if forloop.first == false -%}
             {%- assign next_position = forloop.index | modulo: max_per_line -%}
-            {%- if next_position != 1 -%}
+            {%- if next_position != 1 and next_position != 0 -%}
               ,&nbsp;
             {%- endif -%}
           {%- endif -%}
