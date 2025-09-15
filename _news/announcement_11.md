@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I begin my journey at Gatech as a graduate student, hello atlanta!
+I begin my journey at Gatech as a graduate student, hello Atlanta!
