@@ -1,0 +1,175 @@
+/* Modern animations and transitions for enhanced visual appeal */
+
+/* Global fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInUp {
+  from { opacity: 0; transform: translateY(50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Apply animations to various elements */
+.navbar {
+  animation: slideInDown 0.8s ease-out;
+}
+
+.post, .project, .publication, .news-item {
+  animation: fadeIn 0.6s ease-out;
+  animation-fill-mode: both;
+}
+
+.post:nth-child(1) { animation-delay: 0.1s; }
+.post:nth-child(2) { animation-delay: 0.2s; }
+.post:nth-child(3) { animation-delay: 0.3s; }
+.post:nth-child(4) { animation-delay: 0.4s; }
+
+/* Smooth transitions for all interactive elements */
+a, button, .btn, .navbar-brand, .nav-link {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Card hover animations */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Profile picture animation */
+.profile img {
+  animation: scaleIn 1s ease-out;
+}
+
+.profile img:hover {
+  animation: pulse 2s infinite;
+}
+
+/* Social icons animation */
+.social-icons a {
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.social-icons a:hover {
+  transform: translateY(-3px) scale(1.1);
+}
+
+/* Navigation items animation */
+.nav-item {
+  animation: slideInRight 0.5s ease-out;
+  animation-fill-mode: both;
+}
+
+.nav-item:nth-child(1) { animation-delay: 0.1s; }
+.nav-item:nth-child(2) { animation-delay: 0.2s; }
+.nav-item:nth-child(3) { animation-delay: 0.3s; }
+.nav-item:nth-child(4) { animation-delay: 0.4s; }
+.nav-item:nth-child(5) { animation-delay: 0.5s; }
+
+/* Loading animation */
+@keyframes shimmer {
+  0% { background-position: -1000px 0; }
+  100% { background-position: 1000px 0; }
+}
+
+.shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  background-size: 1000px 100%;
+  animation: shimmer 2s infinite;
+}
+
+/* Text reveal animation */
+.text-reveal {
+  overflow: hidden;
+}
+
+.text-reveal span {
+  display: inline-block;
+  animation: slideInUp 0.6s ease-out;
+  animation-fill-mode: both;
+}
+
+/* Scroll trigger animations */
+.fade-in-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease-out;
+}
+
+.fade-in-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered animations for lists */
+.stagger-animation li {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: slideInLeft 0.5s ease-out forwards;
+}
+
+.stagger-animation li:nth-child(1) { animation-delay: 0.1s; }
+.stagger-animation li:nth-child(2) { animation-delay: 0.2s; }
+.stagger-animation li:nth-child(3) { animation-delay: 0.3s; }
+.stagger-animation li:nth-child(4) { animation-delay: 0.4s; }
+.stagger-animation li:nth-child(5) { animation-delay: 0.5s; }
+
+/* Floating animation for important elements */
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Page transition */
+.page-transition {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Interactive cursor effect */
+.cursor-glow {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(123, 31, 162, 0.3), transparent);
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.1s ease;
+}
