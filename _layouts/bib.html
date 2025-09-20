@@ -77,9 +77,14 @@
             {%- endif -%}
           {%- endif -%}
           {%- if forloop.last -%}
-            {%- assign last_position = forloop.index | modulo: max_per_line -%}
-            {%- if last_position != 1 -%}
-              and&nbsp;
+            {%- if forloop.rindex == 2 -%}
+              {%- comment -%} Second to last author, add "and" separator {%- endcomment -%}
+              {%- assign prev_position = forloop.index0 | modulo: max_per_line -%}
+              {%- if prev_position != max_per_line | minus: 1 -%}
+                ,&nbsp;and&nbsp;
+              {%- else -%}
+                and&nbsp;
+              {%- endif -%}
             {%- endif -%}
           {%- endif -%}
         {%- endif -%}
