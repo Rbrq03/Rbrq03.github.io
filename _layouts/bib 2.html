@@ -70,17 +70,18 @@
         
         {%- comment -%} Add comma separator before each author except first {%- endcomment -%}
         {%- if forloop.first == false -%}
-          {%- assign prev_position = forloop.index0 | modulo: max_per_line -%}
-          {%- if forloop.last -%}
-            {%- comment -%} Last author - always add and, with comma if not at start of line {%- endcomment -%}
-            {%- if prev_position != 0 -%}
-              ,&nbsp;and&nbsp;
-            {%- else -%}
-              and&nbsp;
-            {%- endif -%}
-          {%- elsif prev_position != 0 -%}
-            {%- comment -%} Regular author not at start of line - add comma {%- endcomment -%}
+          {%- assign current_position = forloop.index | modulo: max_per_line -%}
+          {%- if current_position == 1 -%}
+            {%- comment -%} Start of new line, no separator {%- endcomment -%}
+          {%- elsif forloop.rindex == 2 -%}
+            {%- comment -%} Second to last author {%- endcomment -%}
+            ,&nbsp;and&nbsp;
+          {%- elsif forloop.last == false -%}
+            {%- comment -%} Regular author, not last {%- endcomment -%}
             ,&nbsp;
+          {%- else -%}
+            {%- comment -%} Last author {%- endcomment -%}
+            and&nbsp;
           {%- endif -%}
         {%- endif -%}
         

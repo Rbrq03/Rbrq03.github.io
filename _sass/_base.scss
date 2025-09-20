@@ -57,6 +57,27 @@ img {
   max-width: 90vw;
 }
 
+/* Hide horizontal scrollbar while allowing scrolling */
+::-webkit-scrollbar:horizontal {
+  display: none;
+}
+
+/* Prevent horizontal scrollbar from appearing */
+html {
+  overflow-x: hidden;
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* Allow vertical scrolling to work normally */
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
 blockquote {
   background: var(--global-bg-color);
   border-left: 2px solid var(--global-theme-color);
