@@ -33,9 +33,9 @@ My research interests include diverse topics of Multi-modal AI and Generative Mo
 - **Efficient Diffusion Training**: Aim at reducing budget of training a diffusion model from scratch.
 - **Agent for Computer Vision**: Aim at developing agents for fundamental computer vision problems. -->
 
-- **🎨 Multi-modal Generation**: Generate high-quality image/video following multi-modal conditions.
-- **⚡ Efficient Diffusion Training**: Text-to-Image Model Pre-training, Personalized Generation
-- **🤖 Agent for Computer Vision**: Develop agentic system for fundamental computer vision tasks.
+- **Multi-modal Generation**: Generate high-quality image/video following multi-modal conditions.
+- **Efficient Diffusion Training**: Text-to-Image Model Pre-training, Personalized Generation
+- **Agent for Computer Vision**: Develop agentic system for fundamental computer vision tasks.
 
 <!-- During my undergraduate research experience, I had the privilege of studying and working at the [Wei Lab](https://weiyc.github.io) at [Beijing Jiaotong University](https://www.bjtu.edu.cn) (Major Mentor: Prof. [Yunchao Wei](https://weiyc.github.io)), [Knowledge Engineering Group](http://keg.cs.tsinghua.edu.cn) at [Tsinghua University](http://tsinghua.edu.cn) (Major Mentor: Prof. [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/)), and [SHI Labs](https://www.shi-labs.com/) at [Georgia Tech](https://ic.gatech.edu/) (Major Mentor: Prof. [Humphery Shi](https://www.humphreyshi.com/)) -->
 

@@ -19,7 +19,7 @@ layout: default
     {% if page.profile -%}
     <div
       class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}"
-      style="width: 240px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); border-radius: 15px; padding: 15px; background: linear-gradient(145deg, #f8f9fa, #e9ecef);"
+      style="width: 240px"
     >
       {%- if page.profile.image %} {%- assign profile_image_path =
       page.profile.image | prepend: 'assets/img/' -%} {% if
@@ -27,13 +27,8 @@ layout: default
       z-depth-1 rounded-circle" -%} {% else %} {%- assign profile_image_class =
       "img-fluid z-depth-1 rounded" -%} {% endif %} {% include figure.html
       path=profile_image_path class=profile_image_class alt=page.profile.image
-      style="border: 4px solid white; box-shadow: 0 5px 15px rgba(0,0,0,0.1);"
-      -%} {% endif -%}
-      <div style="text-align: center; margin-top: 15px; font-size: 0.9em; color: #6c757d; font-style: italic;">
-        AI Researcher & Creative Thinker
-      </div>
-      {%- if page.profile.address %}
-      <div class="address" style="margin-top: 10px;">{{ page.profile.address }}</div>
+      -%} {% endif -%} {%- if page.profile.address %}
+      <div class="address">{{ page.profile.address }}</div>
       {%- endif %}
     </div>
     {%- endif %}
@@ -43,7 +38,7 @@ layout: default
     <!-- News -->
     {% if page.news and site.announcements.enabled -%}
     <h2>
-      <a href="{{ '/news/' | relative_url }}" style="color: inherit">News🔥</a>
+      <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
     </h2>
     {%- include news.html limit=true %} {%- endif %}
 
