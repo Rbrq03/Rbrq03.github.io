@@ -313,7 +313,23 @@
 <li>
 <!-- _layouts/bib.html -->
 <div class="row custom-width-row">
-  <div class="col-sm-2 custom-width-preview abbr"></div>
+  <div class="col-sm-2 custom-width-preview preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/sage-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/sage-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/sage-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/sage.png" class="preview z-depth-1 rounded custom-width-preview" width="auto" height="auto" alt="sage.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
 
   <!-- Entry bib key -->
   <div id="zhu2025sageexploringboundariesunsafe" class="col-sm-8">
