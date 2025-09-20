@@ -1,37 +1,110 @@
 <div class="news">
   {% if site.news != blank -%} {%- assign news_size = site.news | size -%}
-  <div
-    class="table-responsive"
-    {%
-    if
-    include.limit
-    and
-    site.announcements.scrollable
-    and
-    news_size
-  >
-    3 %}style="max-height: 60vw"{% endif %}>
-    <table class="table table-sm table-borderless">
-      {%- assign news = site.news | reverse -%} {% if include.limit and
-      site.announcements.limit %} {% assign news_limit =
-      site.announcements.limit %} {% else %} {% assign news_limit = news_size %}
-      {% endif %} {% for item in news limit: news_limit %}
-      <tr>
-        <th scope="row">{{ item.date | date: "%b. %Y" }}</th>
-        <td>
-          {% if item.inline -%} {{ item.content | remove: '
-          <p>' | remove: '</p>
-          ' | emojify }} {%- else -%}
-          <a class="news-title" href="{{ item.url | relative_url }}"
-            >{{ item.title }}</a
-          >
-          {%- endif %}
-        </td>
-      </tr>
-      {%- endfor %}
-    </table>
+  <div class="news-timeline">
+    {%- assign news = site.news | reverse -%} {% if include.limit and
+    site.announcements.limit %} {% assign news_limit =
+    site.announcements.limit %} {% else %} {% assign news_limit = news_size %}
+    {% endif %} {% for item in news limit: news_limit %}
+    <div class="news-item {% cycle 'news-accent-1', 'news-accent-2', 'news-accent-3' %}">
+      <div class="news-date">{{ item.date | date: "%b. %Y" }}</div>
+      <div class="news-content">
+        {% if item.inline -%} 
+          {{ item.content | remove: '<p>' | remove: '</p>' | emojify }} 
+        {%- else -%}
+          <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {%- endif %}
+      </div>
+    </div>
+    {%- endfor %}
   </div>
   {%- else -%}
   <p>No news so far...</p>
   {%- endif %}
 </div>
+
+<style>
+.news-timeline {
+  position: relative;
+  padding-left: 30px;
+}
+
+.news-timeline::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--global-theme-color), rgba(0,0,0,0.1));
+}
+
+.news-item {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background: var(--global-card-bg-color);
+  border-left: 4px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.news-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.news-item::before {
+  content: '';
+  position: absolute;
+  left: -34px;
+  top: 20px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: white;
+  border: 3px solid var(--global-theme-color);
+}
+
+.news-accent-1 {
+  border-left-color: #0076df;
+}
+.news-accent-1::before {
+  border-color: #0076df;
+}
+
+.news-accent-2 {
+  border-left-color: #00ab37;
+}
+.news-accent-2::before {
+  border-color: #00ab37;
+}
+
+.news-accent-3 {
+  border-left-color: #F29105;
+}
+.news-accent-3::before {
+  border-color: #F29105;
+}
+
+.news-date {
+  font-size: 0.85em;
+  color: var(--global-text-color-light);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.news-content {
+  color: var(--global-text-color);
+}
+
+.news-title {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.news-title:hover {
+  color: var(--global-theme-color);
+  text-decoration: underline;
+}
+</style>
