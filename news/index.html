@@ -143,56 +143,56 @@
 
       </div>
     </div>
-    <div class="news-item news-accent-1">
+    <div class="news-item news-accent-4">
       <div class="news-date">Jan. 2025</div>
       <div class="news-content">
         Our paper ClassDiffusion is accepted to ICLR2025, Let’s meet at Singapore!
 
       </div>
     </div>
-    <div class="news-item news-accent-2">
+    <div class="news-item news-accent-5">
       <div class="news-date">Jul. 2024</div>
       <div class="news-content">
         One paper is accepted to ECCV2024 as Oral, congrats to Siyu and Hongguang!
 
       </div>
     </div>
-    <div class="news-item news-accent-3">
+    <div class="news-item news-accent-1">
       <div class="news-date">Jun. 2024</div>
       <div class="news-content">
         I joined <a href="https://www.shi-labs.com/" rel="external nofollow noopener" target="_blank">SHI Labs</a> as an Undergraduate Researcher!
 
       </div>
     </div>
-    <div class="news-item news-accent-1">
+    <div class="news-item news-accent-2">
       <div class="news-date">May. 2024</div>
       <div class="news-content">
         We release <a href="https://arxiv.org/abs/2405.17532" rel="external nofollow noopener" target="_blank">ClassDiffusion</a>, a simple and effective method for more aligned personalized generation!
 
       </div>
     </div>
-    <div class="news-item news-accent-2">
+    <div class="news-item news-accent-3">
       <div class="news-date">Sep. 2023</div>
       <div class="news-content">
         I have ended my studies and work at KEG. Thanks to Jiazheng Xu, Xiao Liu, and Prof. Jie Tang!
 
       </div>
     </div>
-    <div class="news-item news-accent-3">
+    <div class="news-item news-accent-4">
       <div class="news-date">Jun. 2023</div>
       <div class="news-content">
         We release <a href="(https://github.com/Rbrq03/Study-In-BJTU)">Study In BJTU</a>, a project that includes unofficial LaTeX and Markdown templates for homework and slides for BJTU.
 
       </div>
     </div>
-    <div class="news-item news-accent-1">
+    <div class="news-item news-accent-5">
       <div class="news-date">Apr. 2023</div>
       <div class="news-content">
         I joined <a href="http://keg.cs.tsinghua.edu.cn" rel="external nofollow noopener" target="_blank">Knowledge Engineering Group</a> as a Visiting Student !
 
       </div>
     </div>
-    <div class="news-item news-accent-2">
+    <div class="news-item news-accent-1">
       <div class="news-date">May. 2022</div>
       <div class="news-content">
         I joined <a href="https://weiyc.github.io" rel="external nofollow noopener" target="_blank">Wei Lab</a> as an Undergraduate Researcher!
@@ -214,14 +214,21 @@
   left: 8px;
   top: 0;
   bottom: 0;
-  width: 2px;
-  background: linear-gradient(to bottom, var(--global-theme-color), rgba(0,0,0,0.1));
+  width: 3px;
+  background: linear-gradient(to bottom, 
+    #dc2626 0%,     /* 红色 */
+    #ea580c 20%,    /* 橙红色 */
+    #d97706 40%,    /* 琥珀色 */
+    #65a30d 60%,    /* 橄榄绿 */
+    #0891b2 80%,    /* 青色 */
+    #2563eb 100%    /* 蓝色 */
+  );
 }
 
 .news-item {
   position: relative;
-  margin-bottom: 20px;
-  padding: 15px;
+  margin-bottom: 30px;
+  padding: 18px 20px;
   border-radius: 10px;
   background: var(--global-card-bg-color);
   border-left: 4px solid transparent;
@@ -246,31 +253,50 @@
 }
 
 .news-accent-1 {
-  border-left-color: #0076df;
+  border-left-color: #dc2626;
+  background: linear-gradient(to right, rgba(220, 38, 38, 0.08), transparent);
 }
 .news-accent-1::before {
-  border-color: #0076df;
+  border-color: #dc2626;
 }
 
 .news-accent-2 {
-  border-left-color: #00ab37;
+  border-left-color: #ea580c;
+  background: linear-gradient(to right, rgba(234, 88, 12, 0.08), transparent);
 }
 .news-accent-2::before {
-  border-color: #00ab37;
+  border-color: #ea580c;
 }
 
 .news-accent-3 {
-  border-left-color: #F29105;
+  border-left-color: #d97706;
+  background: linear-gradient(to right, rgba(217, 119, 6, 0.08), transparent);
 }
 .news-accent-3::before {
-  border-color: #F29105;
+  border-color: #d97706;
+}
+
+.news-accent-4 {
+  border-left-color: #65a30d;
+  background: linear-gradient(to right, rgba(101, 163, 13, 0.08), transparent);
+}
+.news-accent-4::before {
+  border-color: #65a30d;
+}
+
+.news-accent-5 {
+  border-left-color: #0891b2;
+  background: linear-gradient(to right, rgba(8, 145, 178, 0.08), transparent);
+}
+.news-accent-5::before {
+  border-color: #0891b2;
 }
 
 .news-date {
   font-size: 0.85em;
   color: var(--global-text-color-light);
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .news-content {

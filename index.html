@@ -121,7 +121,7 @@
   </header>
 
   <article>
-    <div class="profile float-right" style="width: 240px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); border-radius: 15px; padding: 15px; background: linear-gradient(145deg, #f8f9fa, #e9ecef);"> <figure>
+    <div class="profile float-right" style="width: 240px"> <figure>
 
   <picture>
     
@@ -136,10 +136,8 @@
   </picture>
 
 </figure>
-<div style="text-align: center; margin-top: 15px; font-size: 0.9em; color: #6c757d; font-style: italic;">
-        AI Researcher &amp; Creative Thinker
-      </div>
-      <div class="address" style="margin-top: 10px;"></div>
+
+      <div class="address"></div>
     </div>
 
     <div class="clearfix">
@@ -159,11 +157,11 @@
 
 <ul>
   <li>
-<strong>🎨 Multi-modal Generation</strong>: Generate high-quality image/video following multi-modal conditions.</li>
+<strong>Multi-modal Generation</strong>: Generate high-quality image/video following multi-modal conditions.</li>
   <li>
-<strong>⚡ Efficient Diffusion Training</strong>: Text-to-Image Model Pre-training, Personalized Generation</li>
+<strong>Efficient Diffusion Training</strong>: Text-to-Image Model Pre-training, Personalized Generation</li>
   <li>
-<strong>🤖 Agent for Computer Vision</strong>: Develop agentic system for fundamental computer vision tasks.</li>
+<strong>Agent for Computer Vision</strong>: Develop agentic system for fundamental computer vision tasks.</li>
 </ul>
 
 <!-- During my undergraduate research experience, I had the privilege of studying and working at the [Wei Lab](https://weiyc.github.io) at [Beijing Jiaotong University](https://www.bjtu.edu.cn) (Major Mentor: Prof. [Yunchao Wei](https://weiyc.github.io)), [Knowledge Engineering Group](http://keg.cs.tsinghua.edu.cn) at [Tsinghua University](http://tsinghua.edu.cn) (Major Mentor: Prof. [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/)), and [SHI Labs](https://www.shi-labs.com/) at [Georgia Tech](https://ic.gatech.edu/) (Major Mentor: Prof. [Humphery Shi](https://www.humphreyshi.com/)) -->
@@ -184,7 +182,7 @@
 
     <!-- News -->
     <h2>
-      <a href="/news/" style="color: inherit">News🔥</a>
+      <a href="/news/" style="color: inherit">News</a>
     </h2>
 <div class="news">
   <div class="news-timeline"> 
@@ -209,14 +207,14 @@
 
       </div>
     </div>
-    <div class="news-item news-accent-1">
+    <div class="news-item news-accent-4">
       <div class="news-date">Jan. 2025</div>
       <div class="news-content">
         Our paper ClassDiffusion is accepted to ICLR2025, Let’s meet at Singapore!
 
       </div>
     </div>
-    <div class="news-item news-accent-2">
+    <div class="news-item news-accent-5">
       <div class="news-date">Jul. 2024</div>
       <div class="news-content">
         One paper is accepted to ECCV2024 as Oral, congrats to Siyu and Hongguang!
@@ -238,14 +236,21 @@
   left: 8px;
   top: 0;
   bottom: 0;
-  width: 2px;
-  background: linear-gradient(to bottom, var(--global-theme-color), rgba(0,0,0,0.1));
+  width: 3px;
+  background: linear-gradient(to bottom, 
+    #dc2626 0%,     /* 红色 */
+    #ea580c 20%,    /* 橙红色 */
+    #d97706 40%,    /* 琥珀色 */
+    #65a30d 60%,    /* 橄榄绿 */
+    #0891b2 80%,    /* 青色 */
+    #2563eb 100%    /* 蓝色 */
+  );
 }
 
 .news-item {
   position: relative;
-  margin-bottom: 20px;
-  padding: 15px;
+  margin-bottom: 30px;
+  padding: 18px 20px;
   border-radius: 10px;
   background: var(--global-card-bg-color);
   border-left: 4px solid transparent;
@@ -270,31 +275,50 @@
 }
 
 .news-accent-1 {
-  border-left-color: #0076df;
+  border-left-color: #dc2626;
+  background: linear-gradient(to right, rgba(220, 38, 38, 0.08), transparent);
 }
 .news-accent-1::before {
-  border-color: #0076df;
+  border-color: #dc2626;
 }
 
 .news-accent-2 {
-  border-left-color: #00ab37;
+  border-left-color: #ea580c;
+  background: linear-gradient(to right, rgba(234, 88, 12, 0.08), transparent);
 }
 .news-accent-2::before {
-  border-color: #00ab37;
+  border-color: #ea580c;
 }
 
 .news-accent-3 {
-  border-left-color: #F29105;
+  border-left-color: #d97706;
+  background: linear-gradient(to right, rgba(217, 119, 6, 0.08), transparent);
 }
 .news-accent-3::before {
-  border-color: #F29105;
+  border-color: #d97706;
+}
+
+.news-accent-4 {
+  border-left-color: #65a30d;
+  background: linear-gradient(to right, rgba(101, 163, 13, 0.08), transparent);
+}
+.news-accent-4::before {
+  border-color: #65a30d;
+}
+
+.news-accent-5 {
+  border-left-color: #0891b2;
+  background: linear-gradient(to right, rgba(8, 145, 178, 0.08), transparent);
+}
+.news-accent-5::before {
+  border-color: #0891b2;
 }
 
 .news-date {
   font-size: 0.85em;
   color: var(--global-text-color-light);
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .news-content {
