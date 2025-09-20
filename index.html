@@ -238,12 +238,11 @@
   bottom: 0;
   width: 3px;
   background: linear-gradient(to bottom, 
-    #dc2626 0%,     /* 红色 */
-    #ea580c 20%,    /* 橙红色 */
-    #d97706 40%,    /* 琥珀色 */
-    #65a30d 60%,    /* 橄榄绿 */
-    #0891b2 80%,    /* 青色 */
-    #2563eb 100%    /* 蓝色 */
+    #b45309 0%,     /* Deep amber */
+    #92400e 25%,    /* Dark amber */
+    #78350f 50%,    /* Deep amber */
+    #451a03 75%,    /* Very dark amber */
+    #1c0f02 100%    /* Extremely dark amber */
   );
 }
 
@@ -251,10 +250,11 @@
   position: relative;
   margin-bottom: 30px;
   padding: 18px 20px;
-  border-radius: 10px;
-  background: var(--global-card-bg-color);
+  border-radius: 12px;
+  background: #ffffff;
   border-left: 4px solid transparent;
   transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
 .news-item:hover {
@@ -262,56 +262,36 @@
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-.news-item::before {
-  content: '';
-  position: absolute;
-  left: -34px;
-  top: 20px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: white;
-  border: 3px solid var(--global-theme-color);
+/* Assign border colors based on position in timeline */
+.news-item:nth-child(1) {
+  border-left-color: #b45309;
 }
-
-.news-accent-1 {
-  border-left-color: #dc2626;
-  background: linear-gradient(to right, rgba(220, 38, 38, 0.08), transparent);
+.news-item:nth-child(2) {
+  border-left-color: #92400e;
 }
-.news-accent-1::before {
-  border-color: #dc2626;
+.news-item:nth-child(3) {
+  border-left-color: #78350f;
 }
-
-.news-accent-2 {
-  border-left-color: #ea580c;
-  background: linear-gradient(to right, rgba(234, 88, 12, 0.08), transparent);
+.news-item:nth-child(4) {
+  border-left-color: #451a03;
 }
-.news-accent-2::before {
-  border-color: #ea580c;
+.news-item:nth-child(5) {
+  border-left-color: #1c0f02;
 }
-
-.news-accent-3 {
-  border-left-color: #d97706;
-  background: linear-gradient(to right, rgba(217, 119, 6, 0.08), transparent);
+.news-item:nth-child(6) {
+  border-left-color: #b45309;
 }
-.news-accent-3::before {
-  border-color: #d97706;
+.news-item:nth-child(7) {
+  border-left-color: #92400e;
 }
-
-.news-accent-4 {
-  border-left-color: #65a30d;
-  background: linear-gradient(to right, rgba(101, 163, 13, 0.08), transparent);
+.news-item:nth-child(8) {
+  border-left-color: #78350f;
 }
-.news-accent-4::before {
-  border-color: #65a30d;
+.news-item:nth-child(9) {
+  border-left-color: #451a03;
 }
-
-.news-accent-5 {
-  border-left-color: #0891b2;
-  background: linear-gradient(to right, rgba(8, 145, 178, 0.08), transparent);
-}
-.news-accent-5::before {
-  border-color: #0891b2;
+.news-item:nth-child(10) {
+  border-left-color: #1c0f02;
 }
 
 .news-date {
@@ -344,135 +324,486 @@
     <h2>
       <a href="/education/" style="color: inherit">Education</a>
     </h2>
-<p></p>
-<div style="display: flex; align-items: center; margin-bottom: 20px">
-  <div style="flex: 1; min-width: 150px; max-width: 200px; padding-right: 20px">
-    <img src="assets/img/gt.png" alt="gtlogo" style="width: 80%; height: auto">
+<div class="education-timeline">
+  <div class="education-item education-item-gt">
+    <div class="education-card">
+      <div class="education-logo">
+        <img src="assets/img/gt.png" alt="Georgia Tech">
+      </div>
+      <div class="education-content">
+        <h3>Graduate Student in Computer Science</h3>
+        <div class="education-detail">School of Interactive Computing</div>
+        <div class="education-meta">
+          <span class="education-institution">Georgia Institute of Technology</span>
+          <span class="education-date">Aug. 2025 - Present</span>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div style="flex: 3">
-    <p style="font-weight: bold; margin: 0; font-size: 22px">
-      Graduate Student in Computer Science, School of Interactive Computing
-    </p>
-    <p style="margin: 5px 0">Georgia Institute of Technology</p>
-    <p style="margin: 0">Aug. 2025 - Present</p>
+  <div class="education-item education-item-bjtu">
+    <div class="education-card">
+      <div class="education-logo">
+        <img src="assets/img/bjtu.png" alt="BJTU">
+      </div>
+      <div class="education-content">
+        <h3>B.S., Computer Science &amp; Technology</h3>
+        <div class="education-detail">School of Computer Science &amp; Technology</div>
+        <div class="education-meta">
+          <span class="education-institution">Beijing Jiaotong University</span>
+          <span class="education-date">Sept. 2021 - June 2025</span>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-
-<div style="display: flex; align-items: center; margin-bottom: 20px">
-  <div style="flex: 1; min-width: 150px; max-width: 200px; padding-right: 20px">
-    <img src="assets/img/bjtu.png" alt="bjtulogo" style="width: 80%; height: auto">
-  </div>
-
-  <div style="flex: 3">
-    <p style="font-weight: bold; margin: 0; font-size: 22px">
-      B.S., School of Computer Science &amp; Technology
-    </p>
-    <p style="margin: 5px 0">Beijing Jiaotong University</p>
-    <p style="margin: 0">Sept. 2021 - June 2025.</p>
-  </div>
-</div>
-<p></p>
 
 <style>
-  .experience-item {
-    clear: both;
-    padding: 10px 0;
-  }
-  .experience-item img {
-    vertical-align: middle;
-  }
-  .experience-item p {
-    margin: 5px 0;
-  }
-</style>
+.education-timeline {
+  position: relative;
+  padding-left: 30px;
+}
 
+.education-timeline::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(to bottom, 
+    #b3a369 0%,
+    #1e50a2 100%
+  );
+}
+
+.education-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* Georgia Tech - Gold color */
+.education-item-gt::before {
+  border-color: #b3a369;
+  border-width: 3px;
+}
+.education-item-gt .education-card {
+  border-left-color: #b3a369;
+}
+.education-item-gt .education-card:hover {
+  box-shadow: 0 5px 20px rgba(179, 163, 105, 0.15);
+}
+.education-item-gt .education-institution {
+  color: #b3a369;
+}
+.education-item-gt .education-date {
+  color: #b3a369;
+  border-color: #b3a369;
+}
+
+/* Beijing Jiaotong University - Blue color */
+.education-item-bjtu::before {
+  border-color: #1e50a2;
+  border-width: 3px;
+}
+.education-item-bjtu .education-card {
+  border-left-color: #1e50a2;
+}
+.education-item-bjtu .education-card:hover {
+  box-shadow: 0 5px 20px rgba(30, 80, 162, 0.15);
+}
+.education-item-bjtu .education-institution {
+  color: #1e50a2;
+}
+.education-item-bjtu .education-date {
+  color: #1e50a2;
+  border-color: #1e50a2;
+}
+
+.education-item::before {
+  content: '';
+  position: absolute;
+  left: -34px;
+  top: 20px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: white;
+  z-index: 1;
+}
+
+.education-card {
+  background: var(--global-card-bg-color);
+  border-radius: 12px;
+  padding: 20px;
+  border-left: 4px solid #3b82f6;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.education-card:hover {
+  transform: translateX(5px);
+}
+
+.education-logo {
+  flex: 0 0 120px;
+  text-align: center;
+}
+
+.education-logo img {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.education-content {
+  flex: 1;
+}
+
+.education-content h3 {
+  margin: 0 0 8px 0;
+  color: var(--global-text-color);
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.education-detail {
+  color: var(--global-text-color-light);
+  font-size: 0.95em;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.education-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.education-institution {
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.education-date {
+  color: var(--global-text-color-light);
+  padding: 2px 10px;
+  border-radius: 15px;
+  font-size: 0.85em;
+  font-weight: 500;
+  border: 1px solid var(--global-text-color-light);
+  background: transparent;
+}
+
+@media (max-width: 768px) {
+  .education-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .education-meta {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .education-timeline {
+    padding-left: 20px;
+  }
+}
+</style>
 
     <!-- Experience -->
     <h2>
       <a href="/experiences/" style="color: inherit">Experiences</a>
     </h2>
-<p></p>
-<div style="display: flex; align-items: center; margin-bottom: 20px">
-  <div style="flex: 1; min-width: 150px; max-width: 200px; padding-right: 20px">
-    <img src="assets/img/shi.jpg" alt="shilogo" style="width: 100%; height: auto">
+<div class="experience-timeline">
+  <div class="experience-item experience-item-1">
+    <div class="experience-card">
+      <div class="experience-logo">
+        <img src="assets/img/shi.jpg" alt="SHI Labs">
+      </div>
+      <div class="experience-content">
+        <h3>Researcher</h3>
+        <div class="experience-mentor">
+          Mentor: <a href="https://www.humphreyshi.com/" rel="external nofollow noopener" target="_blank">Humphrey Shi</a>
+        </div>
+        <div class="experience-meta">
+          <span class="experience-institution">
+            <a href="https://www.shi-labs.com/" rel="external nofollow noopener" target="_blank">SHI Labs</a>, Interactive
+            Computing @ Georgia Tech
+          </span>
+          <span class="experience-date">Jun. 2024 - Present</span>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div style="flex: 3">
-    <p style="font-weight: bold; margin: 0; font-size: 22px">Researcher</p>
-    <p style="margin: 5px 0">
-      Mentor:
-      <a href="https://www.humphreyshi.com/" style="color: #b3a369" rel="external nofollow noopener" target="_blank">Humphrey Shi</a>
-    </p>
-    <p style="margin: 5px 0">
-      <a href="https://www.shi-labs.com/" style="color: #b3a369" rel="external nofollow noopener" target="_blank">SHI Labs</a>,
-      Interactive Computing @ Georgia Tech
-    </p>
-    <p style="margin: 0">Jun. 2024 - Present</p>
+  <div class="experience-item experience-item-2">
+    <div class="experience-card">
+      <div class="experience-logo">
+        <img src="assets/img/KEG.png" alt="KEG">
+      </div>
+      <div class="experience-content">
+        <h3>Visiting Student</h3>
+        <div class="experience-mentor">
+          Mentor:
+          <a href="https://github.com/xujz18" rel="external nofollow noopener" target="_blank">Jiazheng Xu</a>,
+          <a href="https://keg.cs.tsinghua.edu.cn/jietang/" rel="external nofollow noopener" target="_blank">Jie Tang</a>
+        </div>
+        <div class="experience-meta">
+          <span class="experience-institution">
+            <a href="https://keg.cs.tsinghua.edu.cn/" rel="external nofollow noopener" target="_blank">Knowledge Engineering Group(KEG)</a>, Tsinghua University
+          </span>
+          <span class="experience-date">May. 2023 - Sept. 2023</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="experience-item experience-item-3">
+    <div class="experience-card">
+      <div class="experience-logo">
+        <img src="assets/img/wei_logo.jpeg" alt="WEI Lab">
+      </div>
+      <div class="experience-content">
+        <h3>Undergraduate Researcher</h3>
+        <div class="experience-mentor">
+          Mentor: <a href="https://weiyc.github.io/index.html" rel="external nofollow noopener" target="_blank">Yunchao Wei</a>
+        </div>
+        <div class="experience-meta">
+          <span class="experience-institution">
+            <a href="https://weiyc.github.io/index.html" rel="external nofollow noopener" target="_blank">WEI Lab</a>, Beijing
+            Jiaotong University
+          </span>
+          <span class="experience-date">Apr. 2022 - Jul. 2025</span>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-
-<div style="display: flex; align-items: center; margin-bottom: 20px">
-  <div style="flex: 1; min-width: 150px; max-width: 200px; padding-right: 20px">
-    <img src="assets/img/KEG.png" alt="keglogo" style="width: 100%; height: auto">
-  </div>
-
-  <div style="flex: 3">
-    <p style="font-weight: bold; margin: 0; font-size: 22px">
-      Visiting Student
-    </p>
-    <p style="margin: 5px 0">
-      Mentor:
-      <a href="https://keg.cs.tsinghua.edu.cn/jietang/" style="color: #660874" rel="external nofollow noopener" target="_blank">Jie Tang</a>
-    </p>
-    <p style="margin: 5px 0">
-      <a href="https://keg.cs.tsinghua.edu.cn/" style="color: #660874" rel="external nofollow noopener" target="_blank">Knowledge Engineering Group(KEG)</a>, Tsinghua University
-    </p>
-    <p style="margin: 0">May. 2023 - Sept. 2023</p>
-  </div>
-</div>
-
-<div style="display: flex; align-items: center; margin-bottom: 20px">
-  <div style="flex: 1; min-width: 150px; max-width: 200px; padding-right: 20px">
-    <img src="assets/img/wei_logo.jpeg" alt="Weilab Logo" style="width: 100%; height: auto">
-  </div>
-
-  <div style="flex: 3">
-    <p style="font-weight: bold; margin: 0; font-size: 22px">
-      Undergraduate Researcher
-    </p>
-    <p style="margin: 5px 0">
-      Mentor:
-      <a href="https://weiyc.github.io/index.html" style="color: #1e50a2" rel="external nofollow noopener" target="_blank">Yunchao Wei</a>
-    </p>
-    <p style="margin: 5px 0">
-      <a href="https://weiyc.github.io/index.html" style="color: #1e50a2" rel="external nofollow noopener" target="_blank">WEI Lab</a>, Beijing Jiaotong University
-    </p>
-    <p style="margin: 0">Apr. 2022 - Present</p>
-  </div>
-</div>
-<p></p>
 
 <style>
+  .experience-timeline {
+    position: relative;
+    padding-left: 30px;
+  }
+
+  .experience-timeline::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(
+      to bottom,
+      #b3a369 0%,
+      #660874 50%,
+      #1e50a2 100%
+    );
+  }
+
   .experience-item {
-    clear: both;
-    padding: 10px 0;
+    position: relative;
+    margin-bottom: 30px;
   }
-  .experience-item img {
-    vertical-align: middle;
+
+  .experience-item-1::before {
+    border-color: #b3a369;
+    border-width: 3px;
   }
-  .experience-item p {
-    margin: 5px 0;
+  .experience-item-1 .experience-card {
+    border-left-color: #b3a369;
+  }
+  .experience-item-1 .experience-card:hover {
+    box-shadow: 0 5px 20px rgba(179, 163, 105, 0.15);
+  }
+  .experience-item-1 .experience-mentor a {
+    color: #b3a369;
+  }
+  .experience-item-1 .experience-date {
+    color: #b3a369;
+    border-color: #b3a369;
+  }
+
+  .experience-item-2::before {
+    border-color: #660874;
+    border-width: 3px;
+  }
+  .experience-item-2 .experience-card {
+    border-left-color: #660874;
+  }
+  .experience-item-2 .experience-card:hover {
+    box-shadow: 0 5px 20px rgba(102, 8, 116, 0.15);
+  }
+  .experience-item-2 .experience-mentor a {
+    color: #660874;
+  }
+  .experience-item-2 .experience-date {
+    color: #660874;
+    border-color: #660874;
+  }
+
+  .experience-item-3::before {
+    border-color: #1e50a2;
+    border-width: 3px;
+  }
+  .experience-item-3 .experience-card {
+    border-left-color: #1e50a2;
+  }
+  .experience-item-3 .experience-card:hover {
+    box-shadow: 0 5px 20px rgba(30, 80, 162, 0.15);
+  }
+  .experience-item-3 .experience-mentor a {
+    color: #1e50a2;
+  }
+  .experience-item-3 .experience-date {
+    color: #1e50a2;
+    border-color: #1e50a2;
+  }
+
+  .experience-item::before {
+    content: "";
+    position: absolute;
+    left: -34px;
+    top: 20px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: white;
+    z-index: 1;
+  }
+
+  .experience-card {
+    background: var(--global-card-bg-color);
+    border-radius: 12px;
+    padding: 20px;
+    border-left: 4px solid #8b5cf6;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .experience-card:hover {
+    transform: translateX(5px);
+  }
+
+  .experience-logo {
+    flex: 0 0 120px;
+    text-align: center;
+  }
+
+  .experience-logo img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 8px;
+    object-fit: contain;
+  }
+
+  .experience-content {
+    flex: 1;
+  }
+
+  .experience-content h3 {
+    margin: 0 0 10px 0;
+    color: var(--global-text-color);
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+
+  .experience-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .experience-mentor {
+    color: var(--global-text-color-light);
+    font-size: 0.9em;
+  }
+
+  .experience-mentor a {
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .experience-mentor a:hover {
+    text-decoration: underline;
+  }
+
+  .experience-date {
+    color: var(--global-text-color-light);
+    padding: 2px 10px;
+    border-radius: 15px;
+    font-size: 0.85em;
+    font-weight: 500;
+    border: 1px solid var(--global-text-color-light);
+    background: transparent;
+  }
+
+  .experience-institution {
+    color: var(--global-text-color);
+    font-size: 1em;
+    line-height: 1.4;
+  }
+
+  .experience-institution a {
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .experience-institution a:hover {
+    text-decoration: underline;
+  }
+
+  /* Individual institution colors */
+  .experience-item-1 .experience-institution a {
+    color: #b3a369;
+  }
+
+  .experience-item-2 .experience-institution a {
+    color: #660874;
+  }
+
+  .experience-item-3 .experience-institution a {
+    color: #1e50a2;
+  }
+
+  @media (max-width: 768px) {
+    .experience-card {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .experience-meta {
+      justify-content: center;
+      text-align: center;
+    }
+
+    .experience-timeline {
+      padding-left: 20px;
+    }
   }
 </style>
 
 
-    <!-- Selected preprints -->
+    <!-- Selected papers -->
     <h2>
-      <a href="/preprints/" style="color: inherit">Preprints</a>
+      <a href="/publications/" style="color: inherit">Publications</a>
     </h2>
-<div class="publications">
-  <ol class="bibliography">
+          <div class="publications">
+            <ol class="bibliography">
 <li>
 <!-- _layouts/bib.html -->
 <div class="row custom-width-row">
@@ -507,7 +838,7 @@
 
     <!-- Journal/Book title and date -->
       <div class="periodical">
-<em></em> 2025</div>
+<em>Arxiv</em>, 2025</div>
     <div class="periodical"></div>
 
     <!-- Links/Buttons -->
@@ -567,7 +898,8 @@
           <br>and Yao Zhao</div>
 
     <!-- Journal/Book title and date -->
-      <div class="periodical">2025</div>
+      <div class="periodical">
+<em>Arxiv</em>, 2025</div>
     <div class="periodical"></div>
 
     <!-- Links/Buttons -->
@@ -576,7 +908,7 @@
     </div>
     
     <div class="badges">
-      <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-arxiv-id="2506.09363"></span>
+      <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
       <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px"></span>
     </div> 
   </div>
@@ -594,16 +926,6 @@
   }
 </style>
 </li>
-</ol>
-</div>
-
-
-    <!-- Selected papers -->
-    <h2>
-      <a href="/publications/" style="color: inherit">Publications</a>
-    </h2>
-          <div class="publications">
-            <ol class="bibliography">
 <li>
 <!-- _layouts/bib.html -->
 <div class="row custom-width-row">
@@ -802,6 +1124,17 @@
       #globe-container {
         width: 100px;
         height: 100px;
+      }
+
+      /* Bold publication titles */
+      .publications .title {
+        font-weight: 515 !important;
+      }
+
+      /* Make bold text in publications even bolder */
+      .publications .periodical b,
+      .publications b {
+        font-weight: 515 !important;
       }
     </style>
 
