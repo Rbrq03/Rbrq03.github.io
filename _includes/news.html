@@ -2,16 +2,20 @@
   {% if site.news != blank -%} {%- assign news_size = site.news | size -%}
   <div class="news-timeline">
     {%- assign news = site.news | reverse -%} {% if include.limit and
-    site.announcements.limit %} {% assign news_limit =
-    site.announcements.limit %} {% else %} {% assign news_limit = news_size %}
-    {% endif %} {% for item in news limit: news_limit %}
-    <div class="news-item {% cycle 'news-accent-1', 'news-accent-2', 'news-accent-3', 'news-accent-4', 'news-accent-5' %}">
+    site.announcements.limit %} {% assign news_limit = site.announcements.limit
+    %} {% else %} {% assign news_limit = news_size %} {% endif %} {% for item in
+    news limit: news_limit %}
+    <div
+      class="news-item {% cycle 'news-accent-1', 'news-accent-2', 'news-accent-3', 'news-accent-4', 'news-accent-5' %}"
+    >
       <div class="news-date">{{ item.date | date: "%b. %Y" }}</div>
       <div class="news-content">
-        {% if item.inline -%} 
-          {{ item.content | remove: '<p>' | remove: '</p>' | emojify }} 
-        {%- else -%}
-          <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% if item.inline -%} {{ item.content | remove: '
+        <p>' | remove: '</p>
+        ' | emojify }} {%- else -%}
+        <a class="news-title" href="{{ item.url | relative_url }}"
+          >{{ item.title }}</a
+        >
         {%- endif %}
       </div>
     </div>
@@ -23,94 +27,95 @@
 </div>
 
 <style>
-.news-timeline {
-  position: relative;
-  padding-left: 30px;
-}
+  .news-timeline {
+    position: relative;
+    padding-left: 30px;
+  }
 
-.news-timeline::before {
-  content: '';
-  position: absolute;
-  left: 8px;
-  top: 0;
-  bottom: 0;
-  width: 3px;
-  background: linear-gradient(to bottom, 
-    #b45309 0%,     /* Deep amber */
-    #92400e 25%,    /* Dark amber */
-    #78350f 50%,    /* Deep amber */
-    #451a03 75%,    /* Very dark amber */
-    #1c0f02 100%    /* Extremely dark amber */
-  );
-}
+  .news-timeline::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(
+      to bottom,
+      #b3a369 0%,
+      /* Deep amber */ #bd975e 25%,
+      /* Dark amber */ #c78a52 50%,
+      /* Deep amber */ #935d2a 75%,
+      /* Very dark amber */ #784b21 100% /* Extremely dark amber */
+    );
+  }
 
-.news-item {
-  position: relative;
-  margin-bottom: 30px;
-  padding: 18px 20px;
-  border-radius: 12px;
-  background: #ffffff;
-  border-left: 4px solid transparent;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-}
+  .news-item {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 18px 20px;
+    border-radius: 12px;
+    background: #ffffff;
+    border-left: 4px solid transparent;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
 
-.news-item:hover {
-  transform: translateX(5px);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
+  .news-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
 
-/* Assign border colors based on position in timeline */
-.news-item:nth-child(1) {
-  border-left-color: #b45309;
-}
-.news-item:nth-child(2) {
-  border-left-color: #92400e;
-}
-.news-item:nth-child(3) {
-  border-left-color: #78350f;
-}
-.news-item:nth-child(4) {
-  border-left-color: #451a03;
-}
-.news-item:nth-child(5) {
-  border-left-color: #1c0f02;
-}
-.news-item:nth-child(6) {
-  border-left-color: #b45309;
-}
-.news-item:nth-child(7) {
-  border-left-color: #92400e;
-}
-.news-item:nth-child(8) {
-  border-left-color: #78350f;
-}
-.news-item:nth-child(9) {
-  border-left-color: #451a03;
-}
-.news-item:nth-child(10) {
-  border-left-color: #1c0f02;
-}
+  /* Assign border colors based on position in timeline */
+  .news-item:nth-child(1) {
+    border-left-color: #b3a369;
+  }
+  .news-item:nth-child(2) {
+    border-left-color: #bd975e;
+  }
+  .news-item:nth-child(3) {
+    border-left-color: #c78a52;
+  }
+  .news-item:nth-child(4) {
+    border-left-color: #935d2a;
+  }
+  .news-item:nth-child(5) {
+    border-left-color: #784b21;
+  }
+  .news-item:nth-child(6) {
+    border-left-color: #b45309;
+  }
+  .news-item:nth-child(7) {
+    border-left-color: #92400e;
+  }
+  .news-item:nth-child(8) {
+    border-left-color: #78350f;
+  }
+  .news-item:nth-child(9) {
+    border-left-color: #451a03;
+  }
+  .news-item:nth-child(10) {
+    border-left-color: #1c0f02;
+  }
 
-.news-date {
-  font-size: 0.85em;
-  color: var(--global-text-color-light);
-  font-weight: 600;
-  margin-bottom: 8px;
-}
+  .news-date {
+    font-size: 0.85em;
+    color: var(--global-text-color-light);
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
 
-.news-content {
-  color: var(--global-text-color);
-}
+  .news-content {
+    color: var(--global-text-color);
+  }
 
-.news-title {
-  color: inherit;
-  text-decoration: none;
-  font-weight: 500;
-}
+  .news-title {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 500;
+  }
 
-.news-title:hover {
-  color: var(--global-theme-color);
-  text-decoration: underline;
-}
+  .news-title:hover {
+    color: var(--global-theme-color);
+    text-decoration: underline;
+  }
 </style>
