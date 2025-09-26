@@ -92,10 +92,11 @@
     margin-bottom: 30px;
   }
 
-  .experience-item-1::before {
-    border-color: #b3a369;
-    border-width: 3px;
+  .experience-item-1 {
+    --dot-color: #b3a369;
+    --dot-shadow-color: rgba(179, 163, 105, 0.2);
   }
+
   .experience-item-1 .experience-card {
     border-left-color: #b3a369;
   }
@@ -110,10 +111,11 @@
     border-color: #b3a369;
   }
 
-  .experience-item-2::before {
-    border-color: #660874;
-    border-width: 3px;
+  .experience-item-2 {
+    --dot-color: #660874;
+    --dot-shadow-color: rgba(102, 8, 116, 0.2);
   }
+
   .experience-item-2 .experience-card {
     border-left-color: #660874;
   }
@@ -128,10 +130,11 @@
     border-color: #660874;
   }
 
-  .experience-item-3::before {
-    border-color: #1e50a2;
-    border-width: 3px;
+  .experience-item-3 {
+    --dot-color: #1e50a2;
+    --dot-shadow-color: rgba(30, 80, 162, 0.2);
   }
+
   .experience-item-3 .experience-card {
     border-left-color: #1e50a2;
   }
@@ -149,13 +152,15 @@
   .experience-item::before {
     content: "";
     position: absolute;
-    left: -34px;
-    top: 20px;
+    left: -27px;
+    top: 50%;
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: white;
-    z-index: 1;
+    background: var(--dot-color, #b3a369);
+    z-index: 2;
+    box-shadow: 0 0 0 3px var(--dot-shadow-color, rgba(179, 163, 105, 0.2));
+    transform: translateY(-50%);
   }
 
   .experience-card {
