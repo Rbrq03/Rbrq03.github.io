@@ -247,6 +247,67 @@
     );
   }
 
+  .news-item::before {
+    content: "";
+    position: absolute;
+    left: -30.5px;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--dot-color, #b3a369);
+    z-index: 2;
+    box-shadow: 0 0 0 3px var(--dot-shadow-color, rgba(179, 163, 105, 0.2));
+    transform: translateY(-50%);
+  }
+
+  /* Assign dot colors based on position in timeline */
+  .news-item:nth-child(1) {
+    --dot-color: #b3a369;
+    --dot-shadow-color: rgba(179, 163, 105, 0.2);
+  }
+  .news-item:nth-child(2) {
+    --dot-color: #bd975e;
+    --dot-shadow-color: rgba(189, 151, 94, 0.2);
+  }
+  .news-item:nth-child(3) {
+    --dot-color: #c78a52;
+    --dot-shadow-color: rgba(199, 138, 82, 0.2);
+  }
+  .news-item:nth-child(4) {
+    --dot-color: #935d2a;
+    --dot-shadow-color: rgba(147, 93, 42, 0.2);
+  }
+  .news-item:nth-child(5) {
+    --dot-color: #784b21;
+    --dot-shadow-color: rgba(120, 75, 33, 0.2);
+  }
+  .news-item:nth-child(6) {
+    --dot-color: #b45309;
+    --dot-shadow-color: rgba(180, 83, 9, 0.2);
+  }
+  .news-item:nth-child(7) {
+    --dot-color: #92400e;
+    --dot-shadow-color: rgba(146, 64, 14, 0.2);
+  }
+  .news-item:nth-child(8) {
+    --dot-color: #78350f;
+    --dot-shadow-color: rgba(120, 53, 15, 0.2);
+  }
+  .news-item:nth-child(9) {
+    --dot-color: #451a03;
+    --dot-shadow-color: rgba(69, 26, 3, 0.2);
+  }
+  .news-item:nth-child(10) {
+    --dot-color: #1c0f02;
+    --dot-shadow-color: rgba(28, 15, 2, 0.2);
+  }
+
+  .news-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
   .news-item {
     position: relative;
     margin-bottom: 30px;
@@ -256,43 +317,6 @@
     border-left: 4px solid transparent;
     transition: all 0.3s ease;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  }
-
-  .news-item:hover {
-    transform: translateX(5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  }
-
-  /* Assign border colors based on position in timeline */
-  .news-item:nth-child(1) {
-    border-left-color: #b3a369;
-  }
-  .news-item:nth-child(2) {
-    border-left-color: #bd975e;
-  }
-  .news-item:nth-child(3) {
-    border-left-color: #c78a52;
-  }
-  .news-item:nth-child(4) {
-    border-left-color: #935d2a;
-  }
-  .news-item:nth-child(5) {
-    border-left-color: #784b21;
-  }
-  .news-item:nth-child(6) {
-    border-left-color: #b45309;
-  }
-  .news-item:nth-child(7) {
-    border-left-color: #92400e;
-  }
-  .news-item:nth-child(8) {
-    border-left-color: #78350f;
-  }
-  .news-item:nth-child(9) {
-    border-left-color: #451a03;
-  }
-  .news-item:nth-child(10) {
-    border-left-color: #1c0f02;
   }
 
   .news-date {
@@ -350,7 +374,9 @@
       </div>
       <div class="education-content">
         <h3>B.S., Computer Science &amp; Technology</h3>
-        <div class="education-detail">School of Computer Science &amp; Technology</div>
+        <div class="education-detail">
+          School of Computer Science &amp; Technology
+        </div>
         <div class="education-meta">
           <span class="education-institution">Beijing Jiaotong University</span>
           <span class="education-date">Sept. 2021 - June 2025</span>
@@ -361,164 +387,164 @@
 </div>
 
 <style>
-.education-timeline {
-  position: relative;
-  padding-left: 30px;
-}
-
-.education-timeline::before {
-  content: '';
-  position: absolute;
-  left: 8px;
-  top: 0;
-  bottom: 0;
-  width: 3px;
-  background: linear-gradient(to bottom, 
-    #b3a369 0%,
-    #1e50a2 100%
-  );
-}
-
-.education-item {
-  position: relative;
-  margin-bottom: 30px;
-}
-
-/* Georgia Tech - Gold color */
-.education-item-gt::before {
-  border-color: #b3a369;
-  border-width: 3px;
-}
-.education-item-gt .education-card {
-  border-left-color: #b3a369;
-}
-.education-item-gt .education-card:hover {
-  box-shadow: 0 5px 20px rgba(179, 163, 105, 0.15);
-}
-.education-item-gt .education-institution {
-  color: #b3a369;
-}
-.education-item-gt .education-date {
-  color: #b3a369;
-  border-color: #b3a369;
-}
-
-/* Beijing Jiaotong University - Blue color */
-.education-item-bjtu::before {
-  border-color: #1e50a2;
-  border-width: 3px;
-}
-.education-item-bjtu .education-card {
-  border-left-color: #1e50a2;
-}
-.education-item-bjtu .education-card:hover {
-  box-shadow: 0 5px 20px rgba(30, 80, 162, 0.15);
-}
-.education-item-bjtu .education-institution {
-  color: #1e50a2;
-}
-.education-item-bjtu .education-date {
-  color: #1e50a2;
-  border-color: #1e50a2;
-}
-
-.education-item::before {
-  content: '';
-  position: absolute;
-  left: -34px;
-  top: 20px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: white;
-  z-index: 1;
-}
-
-.education-card {
-  background: var(--global-card-bg-color);
-  border-radius: 12px;
-  padding: 20px;
-  border-left: 4px solid #3b82f6;
-  transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-}
-
-.education-card:hover {
-  transform: translateX(5px);
-}
-
-.education-logo {
-  flex: 0 0 120px;
-  text-align: center;
-}
-
-.education-logo img {
-  max-width: 100px;
-  max-height: 100px;
-  border-radius: 8px;
-  object-fit: contain;
-}
-
-.education-content {
-  flex: 1;
-}
-
-.education-content h3 {
-  margin: 0 0 8px 0;
-  color: var(--global-text-color);
-  font-size: 1.3em;
-  font-weight: 600;
-}
-
-.education-detail {
-  color: var(--global-text-color-light);
-  font-size: 0.95em;
-  margin-bottom: 10px;
-  font-style: italic;
-}
-
-.education-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.education-institution {
-  font-weight: 500;
-  font-size: 1em;
-}
-
-.education-date {
-  color: var(--global-text-color-light);
-  padding: 2px 10px;
-  border-radius: 15px;
-  font-size: 0.85em;
-  font-weight: 500;
-  border: 1px solid var(--global-text-color-light);
-  background: transparent;
-}
-
-@media (max-width: 768px) {
-  .education-card {
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  .education-meta {
-    justify-content: center;
-    text-align: center;
-  }
-  
   .education-timeline {
-    padding-left: 20px;
+    position: relative;
+    padding-left: 30px;
   }
-}
+
+  .education-timeline::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(to bottom, #b3a369 0%, #1e50a2 100%);
+  }
+
+  .education-item {
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  /* Georgia Tech - Gold color */
+  .education-item-gt {
+    --dot-color: #b3a369;
+    --dot-shadow-color: rgba(179, 163, 105, 0.2);
+  }
+  .education-item-gt .education-card {
+    border-left-color: #b3a369;
+  }
+  .education-item-gt .education-card:hover {
+    box-shadow: 0 5px 20px rgba(179, 163, 105, 0.15);
+  }
+  .education-item-gt .education-institution {
+    color: #b3a369;
+  }
+  .education-item-gt .education-date {
+    color: #b3a369;
+    border-color: #b3a369;
+  }
+
+  /* Beijing Jiaotong University - Blue color */
+  .education-item-bjtu {
+    --dot-color: #1e50a2;
+    --dot-shadow-color: rgba(30, 80, 162, 0.2);
+  }
+  .education-item-bjtu .education-card {
+    border-left-color: #1e50a2;
+  }
+  .education-item-bjtu .education-card:hover {
+    box-shadow: 0 5px 20px rgba(30, 80, 162, 0.15);
+  }
+  .education-item-bjtu .education-institution {
+    color: #1e50a2;
+  }
+  .education-item-bjtu .education-date {
+    color: #1e50a2;
+    border-color: #1e50a2;
+  }
+
+  .education-item::before {
+    content: "";
+    position: absolute;
+    left: -27px;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--dot-color, #b3a369);
+    z-index: 2;
+    box-shadow: 0 0 0 3px var(--dot-shadow-color, rgba(179, 163, 105, 0.2));
+    transform: translateY(-50%);
+  }
+
+  .education-card {
+    background: var(--global-card-bg-color);
+    border-radius: 12px;
+    padding: 20px;
+    border-left: 4px solid #3b82f6;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .education-card:hover {
+    transform: translateX(5px);
+  }
+
+  .education-logo {
+    flex: 0 0 120px;
+    text-align: center;
+  }
+
+  .education-logo img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 8px;
+    object-fit: contain;
+  }
+
+  .education-content {
+    flex: 1;
+  }
+
+  .education-content h3 {
+    margin: 0 0 8px 0;
+    color: var(--global-text-color);
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+
+  .education-detail {
+    color: var(--global-text-color-light);
+    font-size: 0.95em;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+
+  .education-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .education-institution {
+    font-weight: 500;
+    font-size: 1em;
+  }
+
+  .education-date {
+    color: var(--global-text-color-light);
+    padding: 2px 10px;
+    border-radius: 15px;
+    font-size: 0.85em;
+    font-weight: 500;
+    border: 1px solid var(--global-text-color-light);
+    background: transparent;
+  }
+
+  @media (max-width: 768px) {
+    .education-card {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .education-meta {
+      justify-content: center;
+      text-align: center;
+    }
+
+    .education-timeline {
+      padding-left: 20px;
+    }
+  }
 </style>
+
 
     <!-- Experience -->
     <h2>
@@ -616,10 +642,11 @@
     margin-bottom: 30px;
   }
 
-  .experience-item-1::before {
-    border-color: #b3a369;
-    border-width: 3px;
+  .experience-item-1 {
+    --dot-color: #b3a369;
+    --dot-shadow-color: rgba(179, 163, 105, 0.2);
   }
+
   .experience-item-1 .experience-card {
     border-left-color: #b3a369;
   }
@@ -634,10 +661,11 @@
     border-color: #b3a369;
   }
 
-  .experience-item-2::before {
-    border-color: #660874;
-    border-width: 3px;
+  .experience-item-2 {
+    --dot-color: #660874;
+    --dot-shadow-color: rgba(102, 8, 116, 0.2);
   }
+
   .experience-item-2 .experience-card {
     border-left-color: #660874;
   }
@@ -652,10 +680,11 @@
     border-color: #660874;
   }
 
-  .experience-item-3::before {
-    border-color: #1e50a2;
-    border-width: 3px;
+  .experience-item-3 {
+    --dot-color: #1e50a2;
+    --dot-shadow-color: rgba(30, 80, 162, 0.2);
   }
+
   .experience-item-3 .experience-card {
     border-left-color: #1e50a2;
   }
@@ -673,13 +702,15 @@
   .experience-item::before {
     content: "";
     position: absolute;
-    left: -34px;
-    top: 20px;
+    left: -27px;
+    top: 50%;
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: white;
-    z-index: 1;
+    background: var(--dot-color, #b3a369);
+    z-index: 2;
+    box-shadow: 0 0 0 3px var(--dot-shadow-color, rgba(179, 163, 105, 0.2));
+    transform: translateY(-50%);
   }
 
   .experience-card {
