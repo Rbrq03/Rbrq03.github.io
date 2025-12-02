@@ -187,7 +187,23 @@
         role="button"
         >Slides</a
       >
-      {%- endif %} {%- endif %} {%- if entry.website %}
+      {%- endif %} {%- endif %} {%- if entry.leaderboard %}
+      <a href="{{ entry.leaderboard }}" class="btn btn-sm z-depth-0" role="button"
+        >Leaderboard</a
+      >
+      {%- endif %} {%- if entry.dataset_g %}
+      <a href="{{ entry.dataset_g }}" class="btn btn-sm z-depth-0" role="button"
+        >PAI-Bench-G</a
+      >
+      {%- endif %} {%- if entry.dataset_c %}
+      <a href="{{ entry.dataset_c }}" class="btn btn-sm z-depth-0" role="button"
+        >PAI-Bench-C</a
+      >
+      {%- endif %} {%- if entry.dataset_u %}
+      <a href="{{ entry.dataset_u }}" class="btn btn-sm z-depth-0" role="button"
+        >PAI-Bench-U</a
+      >
+      {%- endif %} {%- if entry.website %}
       <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button"
         >Website</a
       >
