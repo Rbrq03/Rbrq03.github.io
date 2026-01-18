@@ -29,7 +29,7 @@ Hi, I am Jiannan Huang, a first-year graduate student majoring in Computer Scien
 
 
 
-My interest lies in building, training, curating data, and benchmarking **unified multimodal models**. Specifically, I work on two key sides of **interleaved generation**: **Intelligent** (visual reasoning for complex tasks, *e.g.*, MCOT) and **Creation** (intermediate results for content creation, *e.g.*, tutorials).
+Human intelligence and reasoning are not limited to text, but arise from coordinated multimodal thinking. My long-term goal is to build robust, high-performing multimodal reasoning systems that enable stronger intelligence and content generation. My research interest lies in data synthesis, evaluation, model/agentic system design, and training for such multimodal system.
 
 <!-- During my undergraduate research experience, I had the privilege of studying and working at the [Wei Lab](https://weiyc.github.io) at [Beijing Jiaotong University](https://www.bjtu.edu.cn) (Major Mentor: Prof. [Yunchao Wei](https://weiyc.github.io)), [Knowledge Engineering Group](http://keg.cs.tsinghua.edu.cn) at [Tsinghua University](http://tsinghua.edu.cn) (Major Mentor: Prof. [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/)), and [SHI Labs](https://www.shi-labs.com/) at [Georgia Tech](https://ic.gatech.edu/) (Major Mentor: Prof. [Humphery Shi](https://www.humphreyshi.com/)) -->
 
