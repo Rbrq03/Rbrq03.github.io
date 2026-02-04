@@ -1,1 +1,0 @@
-We release DuoGen, a general purpose interleaved multimodal generation model! Check it out [here](https://www.arxiv.org/abs/2602.00508). 🚀
