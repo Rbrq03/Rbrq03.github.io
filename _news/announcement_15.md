@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Four of our papers have been accepted to CVPR 2026 (2 main and 2 findings), congrats to all collaborators! 🎉
+Four papers are accepted to CVPR 2026 (2 main and 2 finding), congrats to all collaborators! 🎉
