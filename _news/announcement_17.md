@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-PAI-Bench is selected as CVPR2026 Oral, and DuoGen is selected as CVPR2026 Highlight. Congrats to all co-authors🎉!
+PAI-Bench is selected as a CVPR 2026 Oral, and DuoGen as a CVPR 2026 Highlight. Congrats to all co-authors! 🎉
