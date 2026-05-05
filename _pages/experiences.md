@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /experiences/
-title: Experiences
+title: Academic Experience
 description:
 ---
 

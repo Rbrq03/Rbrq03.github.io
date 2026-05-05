@@ -51,7 +51,7 @@ layout: default
     </h2>
     {%- include latest_posts.html %} {%- endif %}
 
-    <!-- Experience -->
+    <!-- Education -->
     {% if page.education -%}
     <h2>
       <a href="{{ '/education/' | relative_url }}" style="color: inherit"
@@ -60,11 +60,20 @@ layout: default
     </h2>
     {%- include education.html %} {%- endif %}
 
-    <!-- Experience -->
+    <!-- Work Experience -->
+    {% if page.work_experience -%}
+    <h2>
+      <a href="{{ '/work-experience/' | relative_url }}" style="color: inherit"
+        >Work Experience</a
+      >
+    </h2>
+    {%- include work_experience.html %} {%- endif %}
+
+    <!-- Academic Experience -->
     {% if page.experiences -%}
     <h2>
       <a href="{{ '/experiences/' | relative_url }}" style="color: inherit"
-        >Experiences</a
+        >Academic Experience</a
       >
     </h2>
     {%- include experiences.html %} {%- endif %}

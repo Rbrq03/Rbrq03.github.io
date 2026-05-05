@@ -2,35 +2,6 @@
   <div class="experience-item experience-item-1">
     <div class="experience-card">
       <div class="experience-logo">
-        <img
-          class="experience-logo-nvidia"
-          src="{{ '/assets/img/nvidia-logo.svg' | relative_url }}"
-          alt="NVIDIA"
-        />
-      </div>
-      <div class="experience-content">
-        <h3>Research Intern</h3>
-        <div class="experience-mentor">
-          Mentor:
-          <a href="https://research.nvidia.com/person/ming-yu-liu"
-            >Dr. Ming-Yu Liu</a
-          >
-        </div>
-        <div class="experience-meta">
-          <span class="experience-institution">
-            <a href="https://research.nvidia.com/labs/cosmos-lab/"
-              >NVIDIA Cosmos Lab</a
-            >
-          </span>
-          <span class="experience-date">May. 2026 - Present</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="experience-item experience-item-2">
-    <div class="experience-card">
-      <div class="experience-logo">
         <img src="{{ '/assets/img/shi.jpg' | relative_url }}" alt="SHI Labs" />
       </div>
       <div class="experience-content">
@@ -49,7 +20,7 @@
     </div>
   </div>
 
-  <div class="experience-item experience-item-3">
+  <div class="experience-item experience-item-2">
     <div class="experience-card">
       <div class="experience-logo">
         <img src="{{ '/assets/img/KEG.png' | relative_url }}" alt="KEG" />
@@ -73,7 +44,7 @@
     </div>
   </div>
 
-  <div class="experience-item experience-item-4">
+  <div class="experience-item experience-item-3">
     <div class="experience-card">
       <div class="experience-logo">
         <img
@@ -113,9 +84,8 @@
     width: 3px;
     background: linear-gradient(
       to bottom,
-      #76b900 0%,
-      #b3a369 33%,
-      #660874 66%,
+      #b3a369 0%,
+      #660874 50%,
       #1e50a2 100%
     );
   }
@@ -126,77 +96,58 @@
   }
 
   .experience-item-1 {
-    --dot-color: #76b900;
-    --dot-shadow-color: rgba(118, 185, 0, 0.2);
-  }
-
-  .experience-item-1 .experience-card {
-    border-left-color: #76b900;
-  }
-  .experience-item-1 .experience-card:hover {
-    box-shadow: 0 5px 20px rgba(118, 185, 0, 0.15);
-  }
-  .experience-item-1 .experience-mentor a {
-    color: #76b900;
-  }
-  .experience-item-1 .experience-date {
-    color: #76b900;
-    border-color: #76b900;
-  }
-
-  .experience-item-2 {
     --dot-color: #b3a369;
     --dot-shadow-color: rgba(179, 163, 105, 0.2);
   }
 
-  .experience-item-2 .experience-card {
+  .experience-item-1 .experience-card {
     border-left-color: #b3a369;
   }
-  .experience-item-2 .experience-card:hover {
+  .experience-item-1 .experience-card:hover {
     box-shadow: 0 5px 20px rgba(179, 163, 105, 0.15);
   }
-  .experience-item-2 .experience-mentor a {
+  .experience-item-1 .experience-mentor a {
     color: #b3a369;
   }
-  .experience-item-2 .experience-date {
+  .experience-item-1 .experience-date {
     color: #b3a369;
     border-color: #b3a369;
   }
 
-  .experience-item-3 {
+  .experience-item-2 {
     --dot-color: #660874;
     --dot-shadow-color: rgba(102, 8, 116, 0.2);
   }
 
-  .experience-item-3 .experience-card {
+  .experience-item-2 .experience-card {
     border-left-color: #660874;
   }
-  .experience-item-3 .experience-card:hover {
+  .experience-item-2 .experience-card:hover {
     box-shadow: 0 5px 20px rgba(102, 8, 116, 0.15);
   }
-  .experience-item-3 .experience-mentor a {
+  .experience-item-2 .experience-mentor a {
     color: #660874;
   }
-  .experience-item-3 .experience-date {
+  .experience-item-2 .experience-date {
     color: #660874;
     border-color: #660874;
   }
 
-  .experience-item-4 {
+  .experience-item-3 {
     --dot-color: #1e50a2;
     --dot-shadow-color: rgba(30, 80, 162, 0.2);
   }
 
-  .experience-item-4 .experience-card {
+  .experience-item-3 .experience-card {
     border-left-color: #1e50a2;
   }
-  .experience-item-4 .experience-card:hover {
+  .experience-item-3 .experience-card:hover {
     box-shadow: 0 5px 20px rgba(30, 80, 162, 0.15);
   }
-  .experience-item-4 .experience-mentor a {
+  .experience-item-3 .experience-mentor a {
     color: #1e50a2;
   }
-  .experience-item-4 .experience-date {
+  .experience-item-3 .experience-date {
     color: #1e50a2;
     border-color: #1e50a2;
   }
@@ -241,12 +192,6 @@
     max-height: 100px;
     border-radius: 8px;
     object-fit: contain;
-  }
-
-  .experience-logo img.experience-logo-nvidia {
-    width: 120px;
-    max-width: 120px;
-    max-height: 44px;
   }
 
   .experience-content {
@@ -310,18 +255,14 @@
 
   /* Individual institution colors */
   .experience-item-1 .experience-institution a {
-    color: #76b900;
-  }
-
-  .experience-item-2 .experience-institution a {
     color: #b3a369;
   }
 
-  .experience-item-3 .experience-institution a {
+  .experience-item-2 .experience-institution a {
     color: #660874;
   }
 
-  .experience-item-4 .experience-institution a {
+  .experience-item-3 .experience-institution a {
     color: #1e50a2;
   }
 

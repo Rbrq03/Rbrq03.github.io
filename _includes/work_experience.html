@@ -1,0 +1,174 @@
+<div class="work-experience-timeline">
+  <div class="work-experience-item">
+    <div class="work-experience-card">
+      <div class="work-experience-logo">
+        <img
+          src="{{ '/assets/img/nvidia-logo-vertical.svg' | relative_url }}"
+          alt="NVIDIA"
+        />
+      </div>
+      <div class="work-experience-content">
+        <h3>Research Intern</h3>
+        <div class="work-experience-mentor">
+          Mentor:
+          <a href="https://research.nvidia.com/person/ming-yu-liu"
+            >Dr. Ming-Yu Liu</a
+          >
+        </div>
+        <div class="work-experience-meta">
+          <span class="work-experience-institution">
+            <a href="https://research.nvidia.com/labs/cosmos-lab/"
+              >NVIDIA Cosmos Lab</a
+            >
+          </span>
+          <span class="work-experience-date">May. 2026 - Present</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .work-experience-timeline {
+    position: relative;
+    padding-left: 30px;
+  }
+
+  .work-experience-timeline::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: #76b900;
+  }
+
+  .work-experience-item {
+    position: relative;
+    margin-bottom: 30px;
+    --dot-color: #76b900;
+    --dot-shadow-color: rgba(118, 185, 0, 0.2);
+  }
+
+  .work-experience-item::before {
+    content: "";
+    position: absolute;
+    left: -27px;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--dot-color);
+    z-index: 2;
+    box-shadow: 0 0 0 3px var(--dot-shadow-color);
+    transform: translateY(-50%);
+  }
+
+  .work-experience-card {
+    background: var(--global-card-bg-color);
+    border-radius: 12px;
+    padding: 20px;
+    border-left: 4px solid #76b900;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .work-experience-card:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 20px rgba(118, 185, 0, 0.15);
+  }
+
+  .work-experience-logo {
+    flex: 0 0 120px;
+    text-align: center;
+  }
+
+  .work-experience-logo img {
+    width: 96px;
+    max-width: 96px;
+    max-height: 96px;
+    border-radius: 8px;
+    object-fit: contain;
+  }
+
+  .work-experience-content {
+    flex: 1;
+  }
+
+  .work-experience-content h3 {
+    margin: 0 0 10px 0;
+    color: var(--global-text-color);
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+
+  .work-experience-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .work-experience-mentor {
+    color: var(--global-text-color-light);
+    font-size: 0.9em;
+  }
+
+  .work-experience-mentor a {
+    color: #76b900;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .work-experience-mentor a:hover {
+    text-decoration: underline;
+  }
+
+  .work-experience-date {
+    color: #76b900;
+    padding: 2px 10px;
+    border-radius: 15px;
+    font-size: 0.85em;
+    font-weight: 500;
+    border: 1px solid #76b900;
+    background: transparent;
+  }
+
+  .work-experience-institution {
+    color: var(--global-text-color);
+    font-size: 1em;
+    line-height: 1.4;
+  }
+
+  .work-experience-institution a {
+    color: #76b900;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .work-experience-institution a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .work-experience-card {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .work-experience-meta {
+      justify-content: center;
+      text-align: center;
+    }
+
+    .work-experience-timeline {
+      padding-left: 20px;
+    }
+  }
+</style>
