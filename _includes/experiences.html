@@ -2,14 +2,18 @@
   <div class="experience-item experience-item-1">
     <div class="experience-card">
       <div class="experience-logo">
-        <div class="experience-logo-text">NVIDIA</div>
+        <img
+          class="experience-logo-nvidia"
+          src="{{ '/assets/img/nvidia-logo.svg' | relative_url }}"
+          alt="NVIDIA"
+        />
       </div>
       <div class="experience-content">
-        <h3>Incoming Research Intern</h3>
+        <h3>Research Intern</h3>
         <div class="experience-mentor">
-          Lab:
-          <a href="https://research.nvidia.com/labs/cosmos-lab/"
-            >Cosmos Lab</a
+          Mentor:
+          <a href="https://research.nvidia.com/person/ming-yu-liu"
+            >Dr. Ming-Yu Liu</a
           >
         </div>
         <div class="experience-meta">
@@ -18,7 +22,7 @@
               >NVIDIA Cosmos Lab</a
             >
           </span>
-          <span class="experience-date">Incoming</span>
+          <span class="experience-date">May. 2026 - Present</span>
         </div>
       </div>
     </div>
@@ -239,18 +243,10 @@
     object-fit: contain;
   }
 
-  .experience-logo-text {
-    display: inline-flex;
-    width: 100px;
-    height: 48px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    background: #76b900;
-    color: #ffffff;
-    font-size: 0.95em;
-    font-weight: 700;
-    letter-spacing: 0;
+  .experience-logo img.experience-logo-nvidia {
+    width: 120px;
+    max-width: 120px;
+    max-height: 44px;
   }
 
   .experience-content {
