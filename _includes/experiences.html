@@ -2,7 +2,32 @@
   <div class="experience-item experience-item-1">
     <div class="experience-card">
       <div class="experience-logo">
-        <img src="assets/img/shi.jpg" alt="SHI Labs" />
+        <div class="experience-logo-text">NVIDIA</div>
+      </div>
+      <div class="experience-content">
+        <h3>Incoming Research Intern</h3>
+        <div class="experience-mentor">
+          Lab:
+          <a href="https://research.nvidia.com/labs/cosmos-lab/"
+            >Cosmos Lab</a
+          >
+        </div>
+        <div class="experience-meta">
+          <span class="experience-institution">
+            <a href="https://research.nvidia.com/labs/cosmos-lab/"
+              >NVIDIA Cosmos Lab</a
+            >
+          </span>
+          <span class="experience-date">Incoming</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="experience-item experience-item-2">
+    <div class="experience-card">
+      <div class="experience-logo">
+        <img src="{{ '/assets/img/shi.jpg' | relative_url }}" alt="SHI Labs" />
       </div>
       <div class="experience-content">
         <h3>Researcher</h3>
@@ -20,10 +45,10 @@
     </div>
   </div>
 
-  <div class="experience-item experience-item-2">
+  <div class="experience-item experience-item-3">
     <div class="experience-card">
       <div class="experience-logo">
-        <img src="assets/img/KEG.png" alt="KEG" />
+        <img src="{{ '/assets/img/KEG.png' | relative_url }}" alt="KEG" />
       </div>
       <div class="experience-content">
         <h3>Visiting Student</h3>
@@ -44,10 +69,13 @@
     </div>
   </div>
 
-  <div class="experience-item experience-item-3">
+  <div class="experience-item experience-item-4">
     <div class="experience-card">
       <div class="experience-logo">
-        <img src="assets/img/wei_logo.jpeg" alt="WEI Lab" />
+        <img
+          src="{{ '/assets/img/wei_logo.jpeg' | relative_url }}"
+          alt="WEI Lab"
+        />
       </div>
       <div class="experience-content">
         <h3>Undergraduate Researcher</h3>
@@ -81,8 +109,9 @@
     width: 3px;
     background: linear-gradient(
       to bottom,
-      #b3a369 0%,
-      #660874 50%,
+      #76b900 0%,
+      #b3a369 33%,
+      #660874 66%,
       #1e50a2 100%
     );
   }
@@ -93,58 +122,77 @@
   }
 
   .experience-item-1 {
+    --dot-color: #76b900;
+    --dot-shadow-color: rgba(118, 185, 0, 0.2);
+  }
+
+  .experience-item-1 .experience-card {
+    border-left-color: #76b900;
+  }
+  .experience-item-1 .experience-card:hover {
+    box-shadow: 0 5px 20px rgba(118, 185, 0, 0.15);
+  }
+  .experience-item-1 .experience-mentor a {
+    color: #76b900;
+  }
+  .experience-item-1 .experience-date {
+    color: #76b900;
+    border-color: #76b900;
+  }
+
+  .experience-item-2 {
     --dot-color: #b3a369;
     --dot-shadow-color: rgba(179, 163, 105, 0.2);
   }
 
-  .experience-item-1 .experience-card {
+  .experience-item-2 .experience-card {
     border-left-color: #b3a369;
   }
-  .experience-item-1 .experience-card:hover {
+  .experience-item-2 .experience-card:hover {
     box-shadow: 0 5px 20px rgba(179, 163, 105, 0.15);
   }
-  .experience-item-1 .experience-mentor a {
+  .experience-item-2 .experience-mentor a {
     color: #b3a369;
   }
-  .experience-item-1 .experience-date {
+  .experience-item-2 .experience-date {
     color: #b3a369;
     border-color: #b3a369;
   }
 
-  .experience-item-2 {
+  .experience-item-3 {
     --dot-color: #660874;
     --dot-shadow-color: rgba(102, 8, 116, 0.2);
   }
 
-  .experience-item-2 .experience-card {
+  .experience-item-3 .experience-card {
     border-left-color: #660874;
   }
-  .experience-item-2 .experience-card:hover {
+  .experience-item-3 .experience-card:hover {
     box-shadow: 0 5px 20px rgba(102, 8, 116, 0.15);
   }
-  .experience-item-2 .experience-mentor a {
+  .experience-item-3 .experience-mentor a {
     color: #660874;
   }
-  .experience-item-2 .experience-date {
+  .experience-item-3 .experience-date {
     color: #660874;
     border-color: #660874;
   }
 
-  .experience-item-3 {
+  .experience-item-4 {
     --dot-color: #1e50a2;
     --dot-shadow-color: rgba(30, 80, 162, 0.2);
   }
 
-  .experience-item-3 .experience-card {
+  .experience-item-4 .experience-card {
     border-left-color: #1e50a2;
   }
-  .experience-item-3 .experience-card:hover {
+  .experience-item-4 .experience-card:hover {
     box-shadow: 0 5px 20px rgba(30, 80, 162, 0.15);
   }
-  .experience-item-3 .experience-mentor a {
+  .experience-item-4 .experience-mentor a {
     color: #1e50a2;
   }
-  .experience-item-3 .experience-date {
+  .experience-item-4 .experience-date {
     color: #1e50a2;
     border-color: #1e50a2;
   }
@@ -189,6 +237,20 @@
     max-height: 100px;
     border-radius: 8px;
     object-fit: contain;
+  }
+
+  .experience-logo-text {
+    display: inline-flex;
+    width: 100px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #76b900;
+    color: #ffffff;
+    font-size: 0.95em;
+    font-weight: 700;
+    letter-spacing: 0;
   }
 
   .experience-content {
@@ -252,14 +314,18 @@
 
   /* Individual institution colors */
   .experience-item-1 .experience-institution a {
-    color: #b3a369;
+    color: #76b900;
   }
 
   .experience-item-2 .experience-institution a {
-    color: #660874;
+    color: #b3a369;
   }
 
   .experience-item-3 .experience-institution a {
+    color: #660874;
+  }
+
+  .experience-item-4 .experience-institution a {
     color: #1e50a2;
   }
 
