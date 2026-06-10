@@ -1,0 +1,498 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=800">
+  <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300);
+
+    /* Color scheme based on Jon Barron / Sergey Karayev template */
+    a {
+      color: #1772d0;
+      text-decoration: none;
+    }
+
+    a:focus,
+    a:hover {
+      color: #f09228;
+      text-decoration: none;
+    }
+
+    body,
+    td,
+    th,
+    tr,
+    p,
+    a {
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      font-weight: 300;
+    }
+
+    strong {
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+    }
+
+    heading {
+      font-family: 'Roboto', sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+    }
+
+    papertitle {
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    name {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-size: 32px;
+    }
+
+    .one {
+      width: 160px;
+      height: 140px;
+      position: relative;
+    }
+
+    .two {
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+
+    .fade {
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+
+    span.highlight {
+      background-color: #ffffd0;
+    }
+
+    .timeline-item {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      padding: 10px 0;
+    }
+
+    .timeline-logo {
+      flex: 0 0 80px;
+      text-align: center;
+    }
+
+    .timeline-logo img {
+      max-width: 70px;
+      max-height: 70px;
+      object-fit: contain;
+    }
+
+    .timeline-content {
+      flex: 1;
+    }
+
+    .timeline-date {
+      color: #888;
+      font-weight: 400;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
+  <title>Jiannan Huang - Homepage</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <script type="text/javascript">
+    function toggleblock(blockId) {
+      var e = document.getElementById(blockId);
+      e.style.display = (e.style.display === 'block') ? 'none' : 'block';
+    }
+  </script>
+</head>
+
+<body>
+  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>
+        <!-- Header / Bio -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="75%" valign="middle">
+              <p align="center">
+                <name>Jiannan Huang</name>
+              </p>
+              <div id="profile-email" align="center">jiannan2003 at gmail dot com</div>
+              <p>
+                Hi, I am Jiannan Huang, a first-year graduate student majoring in Computer Science at the
+                <a href="https://www.gatech.edu/">Georgia Institute of Technology</a>, where I am fortunate to be
+                advised by Prof. <a href="https://www.humphreyshi.com/">Humphrey Shi</a>. I am also a Ph.D. research
+                intern at <a href="https://research.nvidia.com/labs/cosmos-lab/">NVIDIA Cosmos Lab</a>. Prior to
+                joining Georgia Tech, I received a B.S. in Computer Science from
+                <a href="https://www.bjtu.edu.cn">Beijing Jiaotong University</a>, where I had the privilege of being
+                supervised by Prof. <a href="https://weiyc.github.io">Yunchao Wei</a>.
+              </p>
+              <p>
+                Human intelligence and reasoning are not limited to text, but arise from coordinated multimodal
+                thinking. My long-term goal is to build robust, high-performing multimodal reasoning systems that
+                enable stronger intelligence and content generation. My research interest lies in data synthesis,
+                evaluation, model/agentic system design, and training for such multimodal systems.
+              </p>
+              <p>
+                I am open to any collaboration on topics with which I am familiar. If you would like to collaborate
+                with me or just chat, feel free to send me an email.
+              </p>
+              <p align="center">
+                <a href="mailto:jiannan2003@gmail.com">Email</a> &nbsp;|&nbsp;
+                <a href="https://drive.google.com/file/d/1acdtXJEjeHUA_t2fSEJbF0JUaoIoHnG2/view?usp=sharing">CV</a> &nbsp;|&nbsp;
+                <a href="https://github.com/Rbrq03">GitHub</a> &nbsp;|&nbsp;
+                <a href="https://scholar.google.com/citations?user=Hy7YWAUAAAAJ">Google Scholar</a> &nbsp;|&nbsp;
+                <a href="https://www.linkedin.com/in/jiannan-huang-79a9a4290">LinkedIn</a> &nbsp;|&nbsp;
+                <a href="https://twitter.com/Jiannan03">Twitter</a>
+              </p>
+            </td>
+            <td width="25%">
+              <img src="assets/img/jiannan.jpeg" width="200" alt="Jiannan Huang" style="border-radius: 8px;">
+            </td>
+          </tr>
+        </table>
+
+        <!-- News -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <heading>News</heading>
+              <ul>
+                <li><strong>May 2026</strong>: I start my new journey in <a href="https://research.nvidia.com/labs/cosmos-lab/">Cosmos Lab @ NVIDIA</a> as a Ph.D. Research Intern.</li>
+                <li><strong>Apr 2026</strong>: PAI-Bench is selected as a <strong><span style="color:#c20000;">CVPR 2026 Oral</span></strong>, and DuoGen as a <strong><span style="color:#c20000;">CVPR 2026 Highlight</span></strong>. Congrats to all co-authors! 🎉</li>
+                <li><strong>Feb 2026</strong>: We release <a href="https://www.arxiv.org/abs/2602.21010">Le-DETR</a>, one of my side projects. Benefiting from the modern encoder design, Le-DETR is a real-time detector with advanced performance and low training cost.</li>
+                <li><strong>Feb 2026</strong>: Four papers are accepted to <strong>CVPR 2026</strong> (2 main and 2 findings), congrats to all collaborators! 🎉</li>
+                <li><strong>Feb 2026</strong>: We release <a href="https://www.arxiv.org/abs/2602.00508">DuoGen</a>, a general purpose interleaved multimodal generation model! 🚀</li>
+                <li><strong>Dec 2025</strong>: We release the tech report for <a href="https://arxiv.org/abs/2512.01989">PAI-Bench</a>, the first comprehensive benchmark for Physical AI! 🚀</li>
+
+                <!-- Older news kept here for the record but hidden from the page.
+                     Move any item above this comment to make it visible again.
+                <li><strong>Sep 2025</strong>: We release Physical AI Bench (PAI-Bench), a comprehensive benchmark for Physical AI generation, check our <a href="https://github.com/SHI-Labs/physical-ai-bench">code</a> and <a href="https://github.com/SHI-Labs/physical-ai-bench">data</a>!</li>
+                <li><strong>Aug 2025</strong>: I begin my journey at Georgia Tech as a graduate student, hello Atlanta!</li>
+                <li><strong>Apr 2025</strong>: Our paper about Generalized Neighborhood Attention (GNA) is out!</li>
+                <li><strong>Feb 2025</strong>: Our paper AdGPT is accepted to <strong>TOMM</strong>!</li>
+                <li><strong>Jan 2025</strong>: Our paper ClassDiffusion is accepted to <strong>ICLR 2025</strong>, let's meet at Singapore!</li>
+                <li><strong>Jul 2024</strong>: I joined <a href="https://www.shi-labs.com/">SHI Labs</a> as an Undergraduate Researcher!</li>
+                <li><strong>Jun 2024</strong>: One paper is accepted to <strong>ECCV 2024</strong> as Oral, congrats to Siyu and Hongguang!</li>
+                <li><strong>May 2024</strong>: We release <a href="https://arxiv.org/abs/2405.17532">ClassDiffusion</a>, a simple and effective method for more aligned personalized generation!</li>
+                <li><strong>Sep 2023</strong>: I have ended my studies and work at KEG. Thanks to Jiazheng Xu, Xiao Liu, and Prof. Jie Tang!</li>
+                <li><strong>Jun 2023</strong>: We release <a href="https://github.com/Rbrq03/Study-In-BJTU">Study In BJTU</a>, a project that includes unofficial LaTeX and Markdown templates for homework and slides for BJTU.</li>
+                <li><strong>Apr 2023</strong>: I joined <a href="http://keg.cs.tsinghua.edu.cn">Knowledge Engineering Group</a> as a Visiting Student!</li>
+                <li><strong>May 2022</strong>: I joined <a href="https://weiyc.github.io">Wei Lab</a> as an Undergraduate Researcher!</li>
+                -->
+              </ul>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Research -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <heading>Publications</heading>
+
+          <tr>
+            <td width="25%">
+              <div class="one">
+                <img src='assets/img/publication_preview/duogen.png' width="160" alt="DuoGen">
+              </div>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://arxiv.org/abs/2602.00508">
+                <papertitle>DuoGen: Towards General Purpose Interleaved Multimodal Generation</papertitle>
+              </a>
+              <br>
+              Min Shi*, Xiaohui Zeng*, <strong>Jiannan Huang</strong>, Yin Cui, Francesco Ferroni, Jialuo Li,
+              Shubham Pachori, Zhaoshuo Li, Yogesh Balaji, Haoxiang Wang, Tsung-Yi Lin, Xiao Fu, Yue Zhao,
+              Chieh-Yun Chen, Ming-Yu Liu, Humphrey Shi
+              <br>
+              <em>Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2026
+              <strong>(<span style="color:#c20000;">Highlight</span>)</strong>
+              <br>
+              <a href="https://arxiv.org/abs/2602.00508">arXiv</a> |
+              <a href="https://arxiv.org/pdf/2602.00508">paper</a> |
+              <a href="https://research.nvidia.com/labs/dir/duogen/">project page</a>
+              <br>
+              A unified framework towards general-purpose interleaved multimodal generation.
+            </td>
+          </tr>
+
+          <tr>
+            <td width="25%">
+              <div class="one">
+                <img src='assets/img/publication_preview/physical-ai-bench-logo.png' width="160" alt="Physical AI Bench">
+              </div>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://arxiv.org/abs/2512.01989">
+                <papertitle>Physical AI Bench: A Comprehensive Benchmark for Physical AI Generation and Understanding</papertitle>
+              </a>
+              <br>
+              Fengzhe Zhou*, <strong>Jiannan Huang*</strong>, Jialuo Li*, Deva Ramanan, Humphrey Shi
+              <br>
+              <em>Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2026
+              <strong>(<span style="color:#c20000;">Oral, Award Candidate</span>)</strong>
+              <br>
+              <a href="https://arxiv.org/abs/2512.01989">arXiv</a> |
+              <a href="https://github.com/SHI-Labs/physical-ai-bench">code</a> |
+              <a href="https://huggingface.co/spaces/shi-labs/physical-ai-bench-leaderboard">leaderboard</a> |
+              <a href="https://huggingface.co/shi-labs">data</a>
+              <br>
+              The first comprehensive benchmark for Physical AI generation and understanding.
+            </td>
+          </tr>
+
+          <tr>
+            <td width="25%">
+              <div class="one">
+                <img src='assets/img/publication_preview/gna_preview.png' width="160" alt="GNA">
+              </div>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://arxiv.org/abs/2504.16922">
+                <papertitle>Generalized Neighborhood Attention: Multi-dimensional Sparse Attention at the Speed of Light</papertitle>
+              </a>
+              <br>
+              Ali Hassani, Fengzhe Zhou, Aditya Kane, <strong>Jiannan Huang</strong>, Chieh-Yun Chen, Min Shi,
+              Steven Walton, Markus Hoehnerbach, Vijay Thakkar, Michael Isaev, Qinsheng Zhang, Bing Xu,
+              Haicheng Wu, Wen-mei Hwu, Ming-Yu Liu, Humphrey Shi
+              <br>
+              <em>Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2026, Findings
+              <br>
+              <a href="https://arxiv.org/abs/2504.16922">arXiv</a> |
+              <a href="https://arxiv.org/pdf/2504.16922v1">paper</a> |
+              <a href="https://github.com/SHI-Labs/NATTEN">code</a>
+              <br>
+              Multi-dimensional sparse attention with high efficiency.
+            </td>
+          </tr>
+
+          <tr>
+            <td width="25%">
+              <div class="one">
+                <img src='assets/img/publication_preview/ledetr.png' width="160" alt="Le-DETR">
+              </div>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://arxiv.org/abs/2602.21010">
+                <papertitle>Le-DETR: Revisiting Real-Time Detection Transformer with Efficient Encoder Design</papertitle>
+              </a>
+              <br>
+              <strong>Jiannan Huang</strong>, Aditya Kane, Fengzhe Zhou, Yunchao Wei, Humphrey Shi
+              <br>
+              <em>Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2026, Findings
+              <br>
+              <a href="https://arxiv.org/abs/2602.21010">arXiv</a> |
+              <a href="https://arxiv.org/pdf/2602.21010">paper</a>
+              <br>
+              A real-time detector with advanced performance and low training cost via modern encoder design.
+            </td>
+          </tr>
+
+          <tr>
+            <td width="25%">
+              <div class="one">
+                <img src='assets/img/publication_preview/sage.png' width="160" alt="SAGE">
+              </div>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://arxiv.org/abs/2506.09363">
+                <papertitle>SAGE: Exploring the Boundaries of Unsafe Concept Domain with Semantic-Augment Erasing</papertitle>
+              </a>
+              <br>
+              Hongguang Zhu, Yunchao Wei, Mengyu Wang, Siyu Jiao, Yan Fang, <strong>Jiannan Huang</strong>, Yao Zhao
+              <br>
+              <em>arXiv preprint</em>, 2025
+              <br>
+              <a href="https://arxiv.org/abs/2506.09363">arXiv</a> |
+              <a href="https://www.arxiv.org/pdf/2506.09363">paper</a>
+              <br>
+              Exploring the boundaries of the unsafe concept domain via semantic-augment erasing.
+            </td>
+          </tr>
+
+          <tr>
+            <td width="25%">
+              <div class="one">
+                <img src='assets/img/publication_preview/classdiffusion_preview.png' width="160" alt="ClassDiffusion">
+              </div>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://classdiffusion.github.io/">
+                <papertitle>ClassDiffusion: More Aligned Personalization Tuning with Explicit Class Guidance</papertitle>
+              </a>
+              <br>
+              <strong>Jiannan Huang</strong>, Jun Hao Liew, Hanshu Yan, Yuyang Yin, Yao Zhao, Humphrey Shi, Yunchao Wei
+              <br>
+              <em>International Conference on Learning Representations (<strong>ICLR</strong>)</em>, 2025
+              <br>
+              <a href="https://arxiv.org/abs/2405.17532">arXiv</a> |
+              <a href="https://arxiv.org/pdf/2405.17532">paper</a> |
+              <a href="https://classdiffusion.github.io/">project page</a> |
+              <a href="https://github.com/Rbrq03/ClassDiffusion">code</a>
+              <br>
+              A simple and effective method for more aligned personalized generation with explicit class guidance.
+            </td>
+          </tr>
+
+          <tr>
+            <td width="25%">
+              <div class="one">
+                <img src='assets/img/publication_preview/collaborative.png' width="160" alt="Collaborative Vision-Text">
+              </div>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://arxiv.org/abs/2408.00744">
+                <papertitle>Collaborative Vision-Text Representation Optimizing for Open-Vocabulary Segmentation</papertitle>
+              </a>
+              <br>
+              Siyu Jiao*, Hongguang Zhu*, <strong>Jiannan Huang</strong>, Yao Zhao, Yunchao Wei, Humphrey Shi
+              <br>
+              <em>European Conference on Computer Vision (<strong>ECCV</strong>)</em>, 2024
+              <strong>(<span style="color:#c20000;">Oral</span>)</strong>
+              <br>
+              <a href="https://arxiv.org/abs/2408.00744">arXiv</a> |
+              <a href="https://arxiv.org/pdf/2408.00744">paper</a> |
+              <a href="https://github.com/jiaosiyu1999/MAFT-Plus">code</a>
+              <br>
+              Collaboratively optimizing vision-text representations for open-vocabulary segmentation.
+            </td>
+          </tr>
+
+          <tr>
+            <td width="25%">
+              <div class="one">
+                <img src='assets/img/publication_preview/adgpt_preview.png' width="160" alt="AdGPT">
+              </div>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://dl.acm.org/doi/10.1145/3720546">
+                <papertitle>AdGPT: Explore Meaningful Advertising with ChatGPT</papertitle>
+              </a>
+              <br>
+              <strong>Jiannan Huang</strong>, Mengxue Qu, Longfei Li, Yunchao Wei
+              <br>
+              <em>Transactions on Multimedia Computing Communications and Applications (<strong>TOMM</strong>)</em>, 2025
+              <br>
+              <a href="https://dl.acm.org/doi/10.1145/3720546">html</a> |
+              <a href="https://dl.acm.org/doi/pdf/10.1145/3720546">paper</a> |
+              <a href="https://github.com/Rbrq03/AdGPT">code</a>
+              <br>
+              Exploring meaningful advertising generation with ChatGPT.
+            </td>
+          </tr>
+        </table>
+
+        <!-- Education -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <heading>Education</heading>
+              <div class="timeline-item">
+                <div class="timeline-logo"><img src="assets/img/gt.png" alt="Georgia Tech"></div>
+                <div class="timeline-content">
+                  <strong>Georgia Institute of Technology</strong> <span class="timeline-date">&nbsp;&nbsp;Aug. 2025 - Present</span>
+                  <br>Graduate Student in Computer Science, School of Interactive Computing
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-logo"><img src="assets/img/bjtu.png" alt="BJTU"></div>
+                <div class="timeline-content">
+                  <strong>Beijing Jiaotong University</strong> <span class="timeline-date">&nbsp;&nbsp;Sept. 2021 - June 2025</span>
+                  <br>B.S., Computer Science &amp; Technology, School of Computer Science &amp; Technology
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Work Experience -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <heading>Work Experience</heading>
+              <div class="timeline-item">
+                <div class="timeline-logo"><img src="assets/img/nvidia-logo-vertical.svg" alt="NVIDIA"></div>
+                <div class="timeline-content">
+                  <strong>Research Intern</strong>, <a href="https://research.nvidia.com/labs/cosmos-lab/">NVIDIA Cosmos Lab</a>
+                  <span class="timeline-date">&nbsp;&nbsp;May. 2026 - Present</span>
+                  <br>Mentor: <a href="https://research.nvidia.com/person/ming-yu-liu">Dr. Ming-Yu Liu</a>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Academic Experience -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <heading>Academic Experience</heading>
+              <div class="timeline-item">
+                <div class="timeline-logo"><img src="assets/img/shi.jpg" alt="SHI Labs"></div>
+                <div class="timeline-content">
+                  <strong>Researcher</strong>, <a href="https://www.shi-labs.com/">SHI Labs</a>, Interactive Computing @ Georgia Tech
+                  <span class="timeline-date">&nbsp;&nbsp;Jun. 2024 - Present</span>
+                  <br>Mentor: <a href="https://www.humphreyshi.com/">Humphrey Shi</a>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-logo"><img src="assets/img/KEG.png" alt="KEG"></div>
+                <div class="timeline-content">
+                  <strong>Visiting Student</strong>, <a href="https://keg.cs.tsinghua.edu.cn/">Knowledge Engineering Group (KEG)</a>, Tsinghua University
+                  <span class="timeline-date">&nbsp;&nbsp;May. 2023 - Sept. 2023</span>
+                  <br>Mentor: <a href="https://github.com/xujz18">Jiazheng Xu</a>, <a href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-logo"><img src="assets/img/wei_logo.jpeg" alt="WEI Lab"></div>
+                <div class="timeline-content">
+                  <strong>Undergraduate Researcher</strong>, <a href="https://weiyc.github.io/index.html">WEI Lab</a>, Beijing Jiaotong University
+                  <span class="timeline-date">&nbsp;&nbsp;Apr. 2022 - Jul. 2025</span>
+                  <br>Mentor: <a href="https://weiyc.github.io/index.html">Yunchao Wei</a>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Academic Services -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <heading>Academic Services</heading>
+              <ul>
+                <li><strong>Reviewer</strong>: NeurIPS 2026, CVPR 2026, ICLR 2026 &amp; 2025, ICCV 2025.</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Footer -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <br>
+              <p align="right">
+                <font size="2">
+                  template adapted from <a href="https://jonbarron.info/"><font size="2">this awesome website</font></a>
+                </font>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
