@@ -79,6 +79,24 @@
       background-color: #ffffd0;
     }
 
+    .publication-highlight > td {
+      background-color: #ffffd0;
+    }
+
+    .publication-highlight > td:first-child {
+      border-radius: 5px 0 0 5px;
+    }
+
+    .publication-highlight > td:last-child {
+      border-radius: 0 5px 5px 0;
+    }
+
+    .publication-legend {
+      margin: 8px 0 0;
+      color: #666;
+      font-size: 13px;
+    }
+
     .timeline-item {
       display: flex;
       align-items: center;
@@ -197,8 +215,9 @@
         </table>
 
         <!-- Research -->
+        <heading>Publications</heading>
+        <p class="publication-legend"><span class="highlight">Highlighted papers</span> indicate first or co-first authorship. * denotes equal contribution.</p>
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <heading>Publications</heading>
 
           <tr>
             <td width="25%">
@@ -226,7 +245,7 @@
             </td>
           </tr>
 
-          <tr>
+          <tr class="publication-highlight">
             <td width="25%">
               <div class="one">
                 <img src='assets/img/publication_preview/physical-ai-bench-logo.png' width="160" alt="Physical AI Bench">
@@ -276,7 +295,7 @@
             </td>
           </tr>
 
-          <tr>
+          <tr class="publication-highlight">
             <td width="25%">
               <div class="one">
                 <img src='assets/img/publication_preview/ledetr.png' width="160" alt="Le-DETR">
@@ -320,7 +339,7 @@
             </td>
           </tr>
 
-          <tr>
+          <tr class="publication-highlight">
             <td width="25%">
               <div class="one">
                 <img src='assets/img/publication_preview/classdiffusion_preview.png' width="160" alt="ClassDiffusion">
@@ -368,7 +387,7 @@
             </td>
           </tr>
 
-          <tr>
+          <tr class="publication-highlight">
             <td width="25%">
               <div class="one">
                 <img src='assets/img/publication_preview/adgpt_preview.png' width="160" alt="AdGPT">
@@ -425,7 +444,8 @@
                 <div class="timeline-content">
                   <strong>Research Intern</strong>, <a href="https://research.nvidia.com/labs/cosmos-lab/">NVIDIA Cosmos Lab</a>
                   <span class="timeline-date">&nbsp;&nbsp;May. 2026 - Present</span>
-                  <br>Mentor: <a href="https://research.nvidia.com/person/ming-yu-liu">Dr. Ming-Yu Liu</a>
+                  <br>Mentors: <a href="https://research.nvidia.com/person/francesco-ferroni">Dr. Francesco Ferroni</a>,
+                  <a href="https://research.nvidia.com/person/ming-yu-liu">Dr. Ming-Yu Liu</a>
                 </div>
               </div>
             </td>
